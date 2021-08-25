@@ -4,7 +4,7 @@
   src: url("../fonts/FontAwesome6ProLight300.otf"); }
 
 html, body {
-  font-size: 13px; }
+  font-size: 12px; }
 
 body {
   padding: 0;
@@ -477,7 +477,7 @@ img {
         transition: all .25s ease; }
       .top_nav .username_options ul li svg {
         display: inline-block;
-        width: 1.5rem;
+        height: 1.1rem;
         position: absolute;
         left: 2rem;
         top: 50%;
