@@ -1,3 +1,8 @@
+@media(max-width: 1200px){
+	html,body{
+		font-size: 12px;
+	}
+}
 @media(max-width: 772px){
 	.leftpanel{
 		max-width: 6rem;
@@ -24,6 +29,9 @@
 			margin-left: -18rem;
 		}
 	}
+	.leftmenu_sm .leftpanel .logo_pl .logo{
+		top: calc(50% - 0.2rem);
+	}
 	.leftpanel .navbar{
 		// margin-left: 100vh;
 		// opacity: 0;
@@ -44,8 +52,8 @@
 		}
 	}
 	.right_nav .title h1{
-		left: 0;
-		right: 0;
+		left: 2rem;
+		right: 2rem;
 		svg{
 			left: 0;
 			right: 0;
@@ -73,6 +81,9 @@
 	.on_mobile_nav{
 		overflow: auto;
 	    height: calc(100vh - 6rem);
+	}
+	.leftpanel .logo_pl{
+		overflow: hidden;
 	}
 	.leftmenu_sm{
 		.leftpanel .logo_pl{
@@ -185,7 +196,7 @@
 		font-size: 11px;
 	}
 	.top_nav .notification_c .notification_c_icon svg{
-		left: 1rem;
+		left: 1.2rem;
 	}
 	.leftpanel .logo_pl .logo_smaller{
 		margin-top: 0;

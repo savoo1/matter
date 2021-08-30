@@ -112,6 +112,7 @@ $( ".right_nav .title" ).click(function(e) {
 	if ($(window).width() < 772) {
 		$(".notification_c").removeClass("notification_c_active");
 		$(".username_options").removeClass("username_options_active");
+		$(".searchbar_menu").removeClass("active_search");
 	}
 });
 

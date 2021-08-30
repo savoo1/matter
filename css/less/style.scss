@@ -9,7 +9,7 @@
 
 // def code
 html,body{
-	font-size: 12px;
+	font-size: 14px;
 }
 body{
 	padding: 0;
@@ -21,12 +21,23 @@ h1,h2,h3,h4,h5,p{
 }
 *{
 	box-sizing: border-box;
+	outline: none;
 }
 input:focus{
 	outline: none;
 }
 img{
 	max-width: 100%;
+}
+*:hover,*:focus,*{
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 // def code end
 
@@ -76,6 +87,7 @@ img{
 			transform: translateY(-50%);
 			padding-left: 2.3rem;
 			white-space: nowrap;
+			font-size: 1.5rem;
 			span{
 				-webkit-transition: all .25s ease;
 				   -moz-transition: all .25s ease;
@@ -234,6 +246,8 @@ img{
 				border-top-right-radius: 0;
 				font-family: 'Oswald', sans-serif;
 				font-size: 1rem;
+				border: 0;
+				border-radius: 0;
 				padding: 0.3rem 0.5rem 0.3rem 4.1rem;
 				-webkit-transition: all .25s ease;
 				   -moz-transition: all .25s ease;
@@ -367,7 +381,7 @@ img{
 		padding: 0;
 		margin: 0;
 		list-style-type: none;
-		min-height: calc(100vh - 23rem);
+		min-height: calc(100vh - 18.2rem);
 		margin-bottom: 3rem;
 		li{
 			a{
@@ -376,10 +390,11 @@ img{
 				color: #fff;
 				text-decoration: none;
 				padding-left: 4.6rem;
-				line-height: 3.5rem;
+				line-height: 3rem;
 				display: block;
 				position: relative;
-				min-height: 3.6rem;
+				min-height: 3rem;
+				font-weight: 300;
 				span{
 					white-space: nowrap;
 					-webkit-transition: all .25s ease;
@@ -416,7 +431,7 @@ img{
 						}
 					}
 					.h10{
-						height: 1.2rem;
+						height: 1rem;
 					}
 					.dashboard{
 						height: 1.125rem;
@@ -437,7 +452,7 @@ img{
 				}
 			}
 			a:hover{
-				background: #2A2B2D;
+				background: #3E4144;
 				// color: #5BBA45;
 				.icon{
 					svg{
@@ -456,6 +471,9 @@ img{
 							fill: #5BBA45;
 						}
 					}
+					.h10{
+						height: 1rem;
+					}
 				}
 			}
 
@@ -468,9 +486,17 @@ img{
 				     -o-transition: all .25s ease;
 				        transition: all .25s ease;
 				a{
-					font-size: 1.2rem;
-					line-height: 3rem;
-					min-height: 3rem;
+					font-size: 1rem;
+					line-height: 1.8rem;
+					min-height: 1.8rem;
+					font-weight: 300;
+				}
+			}
+		}
+		.dropwdown{
+			a{
+				.arrow{
+					top: calc(50% + 0.05rem);
 				}
 			}
 		}
@@ -479,6 +505,7 @@ img{
 				.arrow{
 					transform: rotate(180deg);
 					margin-top: -0.4rem;	
+					top: calc(50% + 0.3rem);
 				}
 			}
 			.dropdownelements{
@@ -491,9 +518,10 @@ img{
 		margin-bottom: 0;
 		padding-bottom: 2rem;
 		li a{
-			font-size: 1.2rem;
-			line-height: 3rem;
-			min-height: 3rem;
+			font-size: 1rem;
+			line-height: 1.8rem;
+			min-height: 1.8rem;
+			font-weight: 200;
 		}
 	}
 }
@@ -512,9 +540,8 @@ img{
 	        transition: all .25s ease;
 	.notification_c{
 		.notification_c_icon{
-			
 			svg{
-				height: 1.8rem;
+				height: 1.5rem;
 				position: absolute;
 				left: 2rem;
 				top: 50%;
@@ -528,7 +555,37 @@ img{
 			cursor: pointer;
 			svg{
 				path{
-					fill: #5BBA45;
+					fill: #DD9E12;
+				}
+			}
+		}
+
+		.notification_c_icon_red{
+			svg{
+				path{
+					fill:#F2050D;
+				}
+			}
+		}
+		.notification_c_icon_red:hover{
+			svg{
+				path{
+					fill:#D4040B;
+				}
+			}
+		}
+
+		.notification_c_icon_green{
+			svg{
+				path{
+					fill:#47E562;
+				}
+			}
+		}
+		.notification_c_icon_green:hover{
+			svg{
+				path{
+					fill:#3EC856;
 				}
 			}
 		}
@@ -558,6 +615,7 @@ img{
 					font-size: 1.25rem;
 					color: #fff;
 					line-height: 3.5rem;
+					font-weight: 300;
 					position: relative;
 					display: block;
 					-webkit-transition: all .25s ease;
@@ -578,7 +636,21 @@ img{
 					}
 				}
 				a:hover{
-					background: #5BBA45;
+					background: #DD9E12;
+				}
+
+				.red_c{
+					background: #F2050D;
+				}
+				.red_c:hover{
+					background: #D4040B;
+				}
+
+				.green_c{
+					background: #47E562;
+				}
+				.green_c:hover{
+					background: #3EC856;
 				}
 			}
 		}
@@ -627,6 +699,7 @@ img{
 			font-size: 1.25rem;
 			padding-right: 5.2rem;
 			line-height: 3rem;
+			font-weight: 300;
 			cursor: pointer;
 			-webkit-transition: all .25s ease;
 			   -moz-transition: all .25s ease;
