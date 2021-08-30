@@ -496,9 +496,9 @@ img {
         padding-right: 3rem;
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: #fff;
-        line-height: 3.5rem;
+        line-height: 2rem;
         font-weight: 300;
         position: relative;
         display: block;
@@ -509,7 +509,7 @@ img {
         transition: all .25s ease; }
       .top_nav .notification_c ul li svg {
         display: inline-block;
-        width: 1.5rem;
+        height: 1rem;
         position: absolute;
         left: 2rem;
         top: 50%;
@@ -615,9 +615,10 @@ img {
         padding-right: 3rem;
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: #fff;
-        line-height: 3.5rem;
+        line-height: 2rem;
+        font-weight: 300;
         position: relative;
         display: block;
         -webkit-transition: all .25s ease;
@@ -627,7 +628,7 @@ img {
         transition: all .25s ease; }
       .top_nav .username_options ul li svg {
         display: inline-block;
-        height: 1.1rem;
+        height: 1rem;
         position: absolute;
         left: 2rem;
         top: 50%;
