@@ -4,6 +4,15 @@
 	}
 }
 @media(max-width: 772px){
+	.footerarea{
+		left: 0;
+		right: 0;
+		p{
+			text-align: center;
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+	}
 	.leftpanel{
 		max-width: 6rem;
 		background: transparent;

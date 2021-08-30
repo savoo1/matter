@@ -33,6 +33,27 @@ img {
   display: flex;
   min-height: 100vh; }
 
+.footerarea {
+  position: fixed;
+  left: 18rem;
+  right: 18rem;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+  .footerarea p {
+    color: #53565A;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem; }
+
 .right_nav {
   max-width: 18rem;
   background: #72C45F;
@@ -622,6 +643,9 @@ img {
     transform: rotate(180deg);
     margin-top: -0.2rem; }
 
+.leftmenu_sm .footerarea {
+  left: 6rem; }
+
 .leftmenu_sm .leftpanel {
   max-width: 6rem; }
   .leftmenu_sm .leftpanel .logo_pl {
@@ -647,6 +671,9 @@ img {
 
 .leftmenu_sm .leftpanel .logo_pl img, .leftmenu_sm .leftpanel .navbar li a .icon {
   left: 1.85rem; }
+
+.rightmenu_sm .footerarea {
+  right: 6rem; }
 
 .rightmenu_sm .right_nav .title h1 {
   left: 0;
@@ -707,3 +734,7 @@ img {
 
 .bothmenu_ac .work_panel {
   max-width: calc(100% - 12rem); }
+
+.bothmenu_ac .footerarea {
+  left: 6rem;
+  right: 6rem; }
