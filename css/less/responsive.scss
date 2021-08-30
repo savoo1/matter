@@ -125,10 +125,7 @@
 			right: 18rem;
 		}
 		.right_nav{
-			position: fixed;
-			right: 0;
-			top: 6rem;
-			padding-top: 0;
+			
 			.title{
 				max-width: 18rem;
 				h1{
@@ -162,7 +159,7 @@
 	.rightmenu_sm .right_nav .optimalroute h1, .rightmenu_sm .right_nav .optimalroute h2{
 		opacity: 1;
 	}
-	.rightmenu_sm .right_nav{
+	.rightmenu_sm .right_nav .right_nav_phone{
 	    overflow: auto;
 	    height: calc(100vh - 6rem);
 	    min-height: calc(100vh - 6rem);
