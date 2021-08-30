@@ -51,9 +51,14 @@
 			}
 		}
 	}
+	.right_nav .title{
+		min-height: 6rem;
+		min-width: 6rem;
+		background: #43B02A;
+	}
 	.right_nav .title h1{
-		left: 2rem;
-		right: 2rem;
+		left: 0rem;
+		right: 0rem;
 		svg{
 			left: 0;
 			right: 0;
