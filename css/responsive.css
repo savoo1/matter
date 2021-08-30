@@ -100,9 +100,41 @@
     display: block; }
   .rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .dropf .box .tit svg {
     right: unset;
-    left: 2rem; }
+    left: 1.8rem; }
+  .rightmenu_sm .right_nav .optimalroute {
+    min-height: 4.4rem; }
   .rightmenu_sm .right_nav .optimalroute h1, .rightmenu_sm .right_nav .optimalroute h2 {
     opacity: 1; }
+  .right_nav .right_nav_phone {
+    position: fixed;
+    right: 0;
+    top: 6rem;
+    bottom: 0;
+    background: #72C45F;
+    overflow: auto;
+    height: calc(100vh - 6rem);
+    min-height: calc(100vh - 6rem);
+    padding-bottom: 6rem;
+    width: 18rem;
+    margin-right: -18rem;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .rightmenu_sm .right_nav .right_nav_phone {
+    margin-right: 0; }
+  .rightmenu_sm .right_nav .dropf .clickable h2 {
+    opacity: 1; }
+  .rightmenu_sm .right_nav .dropf .clickable {
+    padding-left: 4.3rem; }
+  .rightmenu_sm .right_nav .dropf .clickable svg {
+    left: unset;
+    right: 2rem; }
+  .rightmenu_sm .right_nav .dropf .box input {
+    opacity: 1; }
+  .rightmenu_sm .right_nav .dropf .box {
+    min-height: 6.6rem; }
   .rightmenu_sm .right_nav .right_nav_phone {
     overflow: auto;
     height: calc(100vh - 6rem);
