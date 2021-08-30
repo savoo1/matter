@@ -203,6 +203,9 @@
 @media (max-width: 480px) {
   html, body {
     font-size: 11px; }
+  .right_nav .right_nav_phone {
+    width: 15rem;
+    margin-right: -15rem; }
   .rightmenu_sm .top_nav {
     right: 15rem; }
   .leftmenu_sm .top_nav {
