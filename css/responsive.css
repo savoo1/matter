@@ -148,14 +148,12 @@
     min-height: calc(100vh - 6rem);
     padding-bottom: 6rem; }
   .leftpanel .downnavbar {
-    padding-bottom: 6rem; }
+    padding-bottom: 2rem; }
   .top_nav .username_options .clickable span {
     display: none; }
   .rightmenu_sm .top_nav .searchbar_menu input, .leftmenu_sm .top_nav .searchbar_menu input {
     width: 9rem;
     min-width: 9rem; }
-  .leftpanel .navbar {
-    min-height: unset; }
   .top_nav .notification_c ul, .top_nav .username_options ul {
     left: 6rem;
     right: 6rem; }
