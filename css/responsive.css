@@ -29,7 +29,9 @@
       background: #53565A;
       left: 0;
       top: 6rem;
-      margin-left: -18rem; }
+      margin-left: -18rem;
+      bottom: 0;
+      height: unset; }
   .leftmenu_sm .leftpanel .logo_pl .logo {
     top: calc(50% - 0.2rem); }
   .right_nav {
@@ -155,7 +157,7 @@
     width: 9rem;
     min-width: 9rem; }
   .leftpanel .navbar {
-    min-height: calc(100vh - 22.2rem); }
+    min-height: calc(100% - 12.2rem); }
   .leftpanel .downnavbar {
     min-height: unset; }
   .top_nav .notification_c ul, .top_nav .username_options ul {

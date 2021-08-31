@@ -36,6 +36,8 @@
 			left: 0;
 			top: 6rem;
 			margin-left: -18rem;
+			bottom: 0;
+			height: unset;
 		}
 	}
 	.leftmenu_sm .leftpanel .logo_pl .logo{
@@ -232,7 +234,7 @@
 	}	
 	.leftpanel .navbar{
 		// min-height: unset;
-		min-height: calc(100vh - 22.2rem);
+		min-height: calc(100% - 12.2rem);
 	}
 	.leftpanel .downnavbar{
 		min-height: unset;
