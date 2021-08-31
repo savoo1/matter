@@ -154,6 +154,10 @@
   .rightmenu_sm .top_nav .searchbar_menu input, .leftmenu_sm .top_nav .searchbar_menu input {
     width: 9rem;
     min-width: 9rem; }
+  .leftpanel .navbar {
+    min-height: calc(100vh - 22.2rem); }
+  .leftpanel .downnavbar {
+    min-height: unset; }
   .top_nav .notification_c ul, .top_nav .username_options ul {
     left: 6rem;
     right: 6rem; }

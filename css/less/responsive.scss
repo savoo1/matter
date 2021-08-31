@@ -232,6 +232,10 @@
 	}	
 	.leftpanel .navbar{
 		// min-height: unset;
+		min-height: calc(100vh - 22.2rem);
+	}
+	.leftpanel .downnavbar{
+		min-height: unset;
 	}
 	.top_nav .notification_c ul, .top_nav .username_options ul{
 		left: 6rem;
