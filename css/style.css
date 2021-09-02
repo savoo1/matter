@@ -325,7 +325,7 @@ img {
       width: 100%;
       position: absolute;
       left: 2rem;
-      top: 50%;
+      top: calc(50% + 0.2rem);
       transform: translateY(-50%); }
     .leftpanel .logo_pl .logo_smaller {
       max-width: 2.5566rem;

@@ -375,7 +375,7 @@ img{
 			width: 100%;
 			position: absolute;
 			left: 2rem;
-			top: 50%;
+			top: calc(50% + 0.2rem);
 			transform: translateY(-50%);
 		}
 		.logo_smaller{
