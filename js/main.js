@@ -144,5 +144,19 @@ $( window ).resize(function() {
 		$(".screen_view").removeClass("rightmenu_sm");
 		$(".screen_view").removeClass("bothmenu_ac");
 	}
-
 });
+
+
+// on focus input
+$( ".top_nav .searchbar_menu input" )
+  .focusout(function() {
+  	var placeholder = $(this).attr("name");
+  	$(this).attr("placeholder", placeholder);
+  });
+  $( ".top_nav .searchbar_menu input" ).focus(function() {
+    $(this).attr("placeholder", "");
+  });
+
+
+
+

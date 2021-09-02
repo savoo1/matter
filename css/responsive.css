@@ -173,6 +173,8 @@
     font-size: 11px; }
   .top_nav .notification_c .notification_c_icon svg {
     left: 1.2rem; }
+  .leftmenu_sm .leftpanel .logo_pl .logo, .right_nav .title h1, .top_nav .username_options .clickable, .top_nav .notification_c .notification_c_icon svg {
+    top: 50%; }
   .leftpanel .logo_pl .logo_smaller {
     margin-top: 0; }
   .top_nav .searchbar_menu {
