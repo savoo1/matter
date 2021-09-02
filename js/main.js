@@ -148,12 +148,12 @@ $( window ).resize(function() {
 
 
 // on focus input
-$( ".top_nav .searchbar_menu input" )
+$( "input" )
   .focusout(function() {
   	var placeholder = $(this).attr("name");
   	$(this).attr("placeholder", placeholder);
   });
-  $( ".top_nav .searchbar_menu input" ).focus(function() {
+  $( "input" ).focus(function() {
     $(this).attr("placeholder", "");
   });
 

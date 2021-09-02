@@ -7,11 +7,9 @@
 	.footerarea{
 		left: 0;
 		right: 0;
-		p{
-			text-align: center;
-			padding-left: 2rem;
-			padding-right: 2rem;
-		}
+	}
+	.rightmenu_sm .footerarea{
+		right: 18rem;
 	}
 	.leftpanel{
 		max-width: 6rem;
@@ -239,11 +237,14 @@
 	.leftpanel .downnavbar{
 		min-height: unset;
 	}
-	.top_nav .notification_c ul, .top_nav .username_options ul{
+	.top_nav .notification_c ul{
 		left: 6rem;
 		right: 6rem;
 	}
-	.leftmenu_sm .top_nav .notification_c ul, .leftmenu_sm .top_nav .username_options ul{
+	.top_nav .username_options ul{
+		right: 6rem;
+	}
+	.leftmenu_sm .top_nav .notification_c ul{
 		left: 18rem;
 	}
 	.rightmenu_sm .top_nav .notification_c ul, .rightmenu_sm .top_nav .username_options ul{
@@ -311,26 +312,26 @@
 		font-size: 11px;
 	}
 	.right_nav .right_nav_phone{
-	    width: 15rem;
-	    margin-right: -15rem;
+	    width: 50%;
+	    margin-right: -50%;
 	}
 	.rightmenu_sm .top_nav{
-		right: 15rem;
+		right: 50%;
 	}
 	.leftmenu_sm .top_nav{
-		left: 15rem;
+		left: 50%;
 	}
 	.rightmenu_sm .top_nav .notification_c ul, .rightmenu_sm .top_nav .username_options ul{
-		right: 15rem;
+		right: 50%;
 	}
 	.leftmenu_sm .top_nav .notification_c ul, .leftmenu_sm .top_nav .username_options ul{
-		left: 15rem;
+		left: 50%;
 	}
 	.leftmenu_sm .leftpanel .logo_pl, .rightmenu_sm .right_nav .title{
-		max-width: 15rem;
+		max-width: 50%;
 	}
 	.leftmenu_sm .leftpanel .on_mobile_nav, .rightmenu_sm .right_nav{
-		max-width: 15rem;
+		max-width: 50%;
 	}
 	.rightmenu_sm .top_nav .searchbar_menu input{
 		width: calc(100% - 21rem);
@@ -340,9 +341,16 @@
 		width: calc(100% - 21rem);
 		left: 15rem;
 	}
+	
+	.rightmenu_sm .footerarea{
+		right: 50%;
+	}
 }
 @media(max-width: 355px){
 	html, body{
 		font-size: 10px;
+	}
+	.top_nav .searchbar_menu svg{
+		left: 3.6rem;
 	}
 }

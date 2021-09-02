@@ -4,7 +4,9 @@
   src: url("../fonts/FontAwesome6ProLight300.otf"); }
 
 html, body {
-  font-size: 14px; }
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 body {
   padding: 0;
@@ -148,10 +150,11 @@ img {
       color: #fff;
       margin-top: -0.3rem;
       white-space: nowrap; }
-  .right_nav .wh_c {
+  .right_nav .disabled_a {
     background: #CACAC7; }
   .right_nav .optimalroute:hover {
-    background: #494B4F; }
+    background: #494B4F;
+    pointer-events: none; }
   .right_nav .dropf {
     margin-bottom: 0.3rem; }
     .right_nav .dropf .addm {
@@ -223,6 +226,7 @@ img {
         bottom: 0;
         border: 0;
         width: 100%;
+        font-weight: 300;
         border-radius: 0.5rem;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
@@ -465,12 +469,19 @@ img {
     transform: translateY(-50%); }
     .top_nav .notification_c .notification_c_icon svg path {
       fill: #fdb514; }
+  .top_nav .notification_c .notification_c_icon .redone {
+    display: none; }
   .top_nav .notification_c .notification_c_icon:hover {
     cursor: pointer; }
     .top_nav .notification_c .notification_c_icon:hover svg path {
       fill: #DD9E12; }
-  .top_nav .notification_c .notification_c_icon_red svg path {
-    fill: #F2050D; }
+  .top_nav .notification_c .notification_c_icon_red svg {
+    display: none; }
+    .top_nav .notification_c .notification_c_icon_red svg path {
+      fill: #F2050D; }
+  .top_nav .notification_c .notification_c_icon_red .redone {
+    display: block;
+    margin-left: 0.2rem; }
   .top_nav .notification_c .notification_c_icon_red:hover svg path {
     fill: #D4040B; }
   .top_nav .notification_c .notification_c_icon_green svg path {
@@ -518,6 +529,8 @@ img {
         transform: translateY(-50%); }
         .top_nav .notification_c ul li svg path {
           fill: #fff; }
+      .top_nav .notification_c ul li .redone {
+        margin-left: 0.2rem; }
       .top_nav .notification_c ul li a:hover {
         background: #DD9E12; }
       .top_nav .notification_c ul li .red_c {
