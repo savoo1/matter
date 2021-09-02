@@ -141,6 +141,7 @@ img{
 		padding-left: 4.1rem;
 		padding-top: 0.6rem;
 		overflow: hidden;
+		display: block;
 		svg{
 			position: absolute;
 			left: 1.8rem;
@@ -175,10 +176,13 @@ img{
 	}
 	.disabled_a{
 		background: #CACAC7;
+		pointer-events: none;
 	}
 	.optimalroute:hover{
 		background: #494B4F;
-		pointer-events: none;
+	}
+	.disabled_a:hover{
+		background: #CACAC7;
 	}
 	
 	.dropf{
