@@ -88,7 +88,7 @@ img {
       font-family: 'Oswald', sans-serif;
       font-weight: 300;
       color: #fff;
-      top: 50%;
+      top: calc(50% + 0.3rem);
       transform: translateY(-50%);
       padding-left: 2.3rem;
       white-space: nowrap;
@@ -156,8 +156,6 @@ img {
     margin-bottom: 0.3rem; }
     .right_nav .dropf .clickable {
       padding-left: 4.3rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.6rem;
       position: relative;
       cursor: pointer;
       -webkit-transition: all .25s ease;
@@ -343,7 +341,7 @@ img {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    min-height: calc(100vh - 18.2rem);
+    min-height: calc(100vh - 19.3rem);
     margin-bottom: 3rem; }
     .leftpanel .navbar li a {
       font-family: 'Oswald', sans-serif;
@@ -459,7 +457,7 @@ img {
     height: 1.5rem;
     position: absolute;
     left: 2rem;
-    top: 50%;
+    top: calc(50% + 0.3rem);
     transform: translateY(-50%); }
     .top_nav .notification_c .notification_c_icon svg path {
       fill: #fdb514; }
@@ -532,7 +530,7 @@ img {
   .top_nav .searchbar_menu {
     position: absolute;
     left: 6rem;
-    top: 50%;
+    top: calc(50% + 0.3rem);
     transform: translateY(-50%); }
     .top_nav .searchbar_menu svg {
       height: 1.5rem;
@@ -555,12 +553,12 @@ img {
   .top_nav .username_options .clickable {
     position: absolute;
     right: 2rem;
-    top: 50%;
+    top: calc(50% + 0.3rem);
     transform: translateY(-50%);
     color: #000000;
     font-family: 'Oswald', sans-serif;
     font-size: 1.25rem;
-    padding-right: 5.2rem;
+    padding-right: 4.7rem;
     line-height: 3rem;
     font-weight: 300;
     cursor: pointer;
@@ -571,7 +569,7 @@ img {
     transition: all .25s ease; }
     .top_nav .username_options .clickable .placeforimg {
       position: absolute;
-      right: 1.4rem;
+      right: 1.2rem;
       width: 3rem;
       height: 3rem;
       border-radius: 100%;
@@ -583,7 +581,7 @@ img {
         width: 100%; }
     .top_nav .username_options .clickable svg {
       position: absolute;
-      right: 0;
+      right: -0.2rem;
       top: calc(50% + 0.2rem);
       transform: translateY(-50%);
       width: 1rem;
