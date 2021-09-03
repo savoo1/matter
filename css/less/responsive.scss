@@ -2,6 +2,12 @@
 	html,body{
 		font-size: 13px;
 	}
+	.top_nav .searchbar_menu, .leftmenu_sm .leftpanel .logo_pl .logo, .right_nav .title h1, .top_nav .username_options .clickable, .top_nav .notification_c .notification_c_icon svg{
+		top: 50%;
+	}
+	.leftpanel .logo_pl .logo_smaller{
+		margin-top: 0;
+	}
 }
 @media(max-width: 805px){
 	html,body{
@@ -43,9 +49,9 @@
 			height: unset;
 		}
 	}
-	.leftmenu_sm .leftpanel .logo_pl .logo{
-		top: calc(50% - 0.2rem);
-	}
+	// .leftmenu_sm .leftpanel .logo_pl .logo{
+	// 	top: calc(50% - 0.2rem);
+	// }
 	.leftpanel .navbar{
 		// margin-left: 100vh;
 		// opacity: 0;
@@ -255,17 +261,13 @@
 	.rightmenu_sm .top_nav .notification_c ul, .rightmenu_sm .top_nav .username_options ul{
 		right: 18rem;
 	}
+	
 }
 @media(max-width: 550px){
 	.top_nav .notification_c .notification_c_icon svg{
 		left: 1.2rem;
 	}
-	.leftmenu_sm .leftpanel .logo_pl .logo, .right_nav .title h1, .top_nav .username_options .clickable, .top_nav .notification_c .notification_c_icon svg{
-		top: 50%;
-	}
-	.leftpanel .logo_pl .logo_smaller{
-		margin-top: 0;
-	}
+
 	.top_nav .searchbar_menu{
 		left: 5rem;
 	}
@@ -348,7 +350,7 @@
 		right: 50%;
 	}
 }
-@media(max-width: 480px){
+@media(max-width: 420px){
 	html, body{
 		font-size: 11.6px;
 	}

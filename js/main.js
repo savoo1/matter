@@ -136,19 +136,19 @@ $( ".top_nav .searchbar_menu svg" ).click(function(e) {
 
 
 
-// on resize everything
-// var Widthofwin_prev_resize = $(window).width();
-// $( window ).resize(function() {
-// 	// Make def right box if it get resized
-// 	$(".right_nav .dropf_active .boxes").css("max-height", "unset");
-// 	if(Widthofwin_prev_resize > 772){
-// 		if ($(window).width() < 772) {
-// 			$(".screen_view").removeClass("leftmenu_sm");
-// 			$(".screen_view").removeClass("rightmenu_sm");
-// 			$(".screen_view").removeClass("bothmenu_ac");
-// 		}
-// 	}
-// });
+on resize everything
+var Widthofwin_prev_resize = $(window).width();
+$( window ).resize(function() {
+	// Make def right box if it get resized
+	$(".right_nav .dropf_active .boxes").css("max-height", "unset");
+	if(Widthofwin_prev_resize > 772){
+		if ($(window).width() < 772) {
+			$(".screen_view").removeClass("leftmenu_sm");
+			$(".screen_view").removeClass("rightmenu_sm");
+			$(".screen_view").removeClass("bothmenu_ac");
+		}
+	}
+});
 
 
 // on focus input
