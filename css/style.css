@@ -481,6 +481,8 @@ img {
       fill: #fdb514; }
   .top_nav .notification_c .notification_c_icon .redone {
     display: none; }
+  .top_nav .notification_c .notification_c_icon .greenone {
+    display: none; }
   .top_nav .notification_c .notification_c_icon:hover {
     cursor: pointer; }
     .top_nav .notification_c .notification_c_icon:hover svg path {
@@ -494,8 +496,13 @@ img {
     margin-left: 0.2rem; }
   .top_nav .notification_c .notification_c_icon_red:hover svg path {
     fill: #D4040B; }
-  .top_nav .notification_c .notification_c_icon_green svg path {
-    fill: #47E562; }
+  .top_nav .notification_c .notification_c_icon_green svg {
+    display: none; }
+    .top_nav .notification_c .notification_c_icon_green svg path {
+      fill: #47E562; }
+  .top_nav .notification_c .notification_c_icon_green .greenone {
+    display: block;
+    margin-left: 0.2rem; }
   .top_nav .notification_c .notification_c_icon_green:hover svg path {
     fill: #3EC856; }
   .top_nav .notification_c ul {
