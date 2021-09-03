@@ -28,6 +28,14 @@ h1,h2,h3,h4,h5,p{
 input:focus{
 	outline: none;
 }
+input {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
 img{
 	max-width: 100%;
 }
