@@ -136,7 +136,7 @@ $( ".top_nav .searchbar_menu svg" ).click(function(e) {
 
 
 
-on resize everything
+// on resize everything
 var Widthofwin_prev_resize = $(window).width();
 $( window ).resize(function() {
 	// Make def right box if it get resized
