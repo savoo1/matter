@@ -56,15 +56,20 @@ $( ".right_nav .dropf .box" ).click(function(e) {
 });
 
 // Please select right menu
+var j_height = 0;
 $( ".right_nav .dropf .clickable" ).click(function(e) {
 	e.preventDefault();
 	var getheightofboxes = $(this).parent().find(".eachone").height();
 	if($(this).parent().hasClass("dropf_active")){
 		$(this).parent().removeClass("dropf_active");
-		$(this).parent().find(".boxes").css("max-height", "0");
+		if(j_height == 1){
+			$(this).parent().find(".boxes").css("max-height", "0");
+			j_height = 0;		
+		}
 	}else{
 		$(this).parent().addClass("dropf_active");
 		$(this).parent().find(".boxes").css("max-height", getheightofboxes);
+		j_height = 1;
 	}
 });
 
