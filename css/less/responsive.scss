@@ -172,7 +172,13 @@
 		opacity: 1;
 		display: block;
 	}
-	.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .dropf .box .tit svg{
+	.right_nav .dropf .box_normal .tit{
+		h1, h2{
+			opacity: 1;
+			display: block;
+		}
+	}
+	.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .dropf .box .tit svg, .right_nav .dropf .box_normal .tit svg{
 		right: unset;
 		left: 1.8rem;
 	}
@@ -220,6 +226,9 @@
 	}
 	.rightmenu_sm .right_nav .dropf .box{
 		min-height: 6.6rem;
+	}
+	.rightmenu_sm  .right_nav .dropf .box_normal{
+		min-height: 4.4rem;
 	}
 	.rightmenu_sm .right_nav .right_nav_phone{
 	    overflow: auto;

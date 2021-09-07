@@ -38,6 +38,9 @@ img {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none; }
 
+.leaflet-top .leaflet-control {
+  margin-top: 95px; }
+
 .screen_view {
   display: flex;
   min-height: 100vh; }
@@ -47,6 +50,7 @@ img {
   left: 18rem;
   right: 18rem;
   bottom: 0;
+  z-index: 9999999;
   background: rgba(255, 255, 255, 0.75);
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -70,11 +74,22 @@ img {
   width: 100%;
   position: relative;
   padding-top: 6rem;
+  z-index: 99999998 !important;
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -ms-transition: all .25s ease;
   -o-transition: all .25s ease;
   transition: all .25s ease; }
+  .right_nav .showed_menu {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+  .right_nav .showed_menu_active {
+    height: calc(100vh - 6rem); }
   .right_nav .title {
     position: fixed;
     height: 6rem;
@@ -280,8 +295,75 @@ img {
           color: #fff;
           margin-top: -0.3rem;
           white-space: nowrap; }
+    .right_nav .dropf .box_normal {
+      display: block;
+      width: calc(100% - 0.4rem);
+      margin: auto;
+      min-height: 4.4rem;
+      background: #43B02A;
+      border-radius: 0.5rem;
+      position: relative;
+      margin-bottom: 0.2rem;
+      overflow: hidden;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease; }
+      .right_nav .dropf .box_normal .tit {
+        min-height: 4.4rem;
+        width: 100%;
+        position: relative;
+        padding-left: 4.1rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        overflow: hidden; }
+        .right_nav .dropf .box_normal .tit svg {
+          position: absolute;
+          left: 1.8rem;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          max-width: 1.5rem; }
+          .right_nav .dropf .box_normal .tit svg path {
+            fill: #fff; }
+        .right_nav .dropf .box_normal .tit h2 {
+          font-family: 'Oswald', sans-serif;
+          font-size: 0.7rem;
+          font-weight: 500;
+          color: #fff;
+          white-space: nowrap; }
+          .right_nav .dropf .box_normal .tit h2 span {
+            font-weight: 300; }
+        .right_nav .dropf .box_normal .tit h1 {
+          font-family: 'Oswald', sans-serif;
+          font-size: 1.8rem;
+          font-weight: 700;
+          color: #fff;
+          margin-top: -0.3rem;
+          white-space: nowrap; }
     .right_nav .dropf .box:hover {
       background: #3B9A25; }
+    .right_nav .dropf .green1 {
+      background: #43B02A; }
+    .right_nav .dropf .green1:hover {
+      background: #3B9A25; }
+    .right_nav .dropf .green2 {
+      background: #3B9A25; }
+    .right_nav .dropf .green3 {
+      background: #328420; }
+    .right_nav .dropf .white_c {
+      background: #fff; }
+      .right_nav .dropf .white_c .tit svg path {
+        fill: #3EC856; }
+      .right_nav .dropf .white_c .tit h1, .right_nav .dropf .white_c .tit h2 {
+        color: #3EC856; }
+    .right_nav .dropf .white_c:hover {
+      background: #F2F2F1; }
+      .right_nav .dropf .white_c:hover .tit svg path {
+        fill: #3EC856; }
+      .right_nav .dropf .white_c:hover .tit h1, .right_nav .dropf .white_c:hover .tit h2 {
+        color: #3EC856; }
   .right_nav .dropf_active .clickable svg {
     transform: rotate(180deg);
     margin-top: -0.4rem; }
@@ -312,6 +394,7 @@ img {
   width: 100%;
   position: relative;
   padding-top: 6rem;
+  z-index: 99999998 !important;
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -ms-transition: all .25s ease;
@@ -466,6 +549,7 @@ img {
   background: rgba(255, 255, 255, 0.9);
   top: 0;
   z-index: 2;
+  z-index: 9999999;
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -ms-transition: all .25s ease;
@@ -751,14 +835,22 @@ img {
   opacity: 0;
   display: none; }
 
+.rightmenu_sm .right_nav .dropf .box_normal .tit h1, .rightmenu_sm .right_nav .dropf .box_normal .tit h2 {
+  opacity: 0;
+  display: none; }
+
 .rightmenu_sm .right_nav .optimalroute, .rightmenu_sm .right_nav .dropf .box {
   min-height: 4.8rem;
+  max-height: 4.8rem; }
+
+.rightmenu_sm .right_nav .dropf .box_normal {
+  min-height: 4rem;
   max-height: 4.8rem; }
 
 .rightmenu_sm .right_nav .dropf .box input {
   opacity: 0; }
 
-.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .dropf .box .tit svg {
+.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .dropf .box .tit svg, .rightmenu_sm .right_nav .dropf .box_normal .tit svg {
   left: 0;
   right: 0;
   margin: auto;
@@ -773,3 +865,9 @@ img {
 .bothmenu_ac .footerarea {
   left: 6rem;
   right: 6rem; }
+
+.leaflet-top .leaflet-control {
+  margin-top: 7rem !important; }
+
+.leaflet-right .leaflet-control {
+  margin-bottom: 3rem !important; }

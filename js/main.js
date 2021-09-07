@@ -58,13 +58,13 @@ $( ".right_nav .dropf .box" ).click(function(e) {
 // Please select right menu
 $( ".right_nav .dropf .clickable" ).click(function(e) {
 	e.preventDefault();
-	var getheightofboxes = $(".right_nav .dropf .eachone").height();
+	var getheightofboxes = $(this).parent().find(".eachone").height();
 	if($(this).parent().hasClass("dropf_active")){
 		$(this).parent().removeClass("dropf_active");
-		$(".right_nav .dropf .boxes").css("max-height", "0");
+		$(this).parent().find(".boxes").css("max-height", "0");
 	}else{
 		$(this).parent().addClass("dropf_active");
-		$(".right_nav .dropf_active .boxes").css("max-height", getheightofboxes);
+		$(this).parent().find(".boxes").css("max-height", getheightofboxes);
 	}
 });
 
@@ -131,6 +131,17 @@ $( ".top_nav .searchbar_menu svg" ).click(function(e) {
 		$(".screen_view").removeClass("rightmenu_sm");
 		$(".screen_view").removeClass("bothmenu_ac");
 	}
+});
+
+
+
+// open new menu on click navbar right
+$( ".right_nav .optimalroute" ).click(function(e) {
+	e.preventDefault();
+	$(".showed_menu_active").removeClass("showed_menu_active");
+
+	var showclassname = "." + $(this).attr("name");
+	$(showclassname).addClass("showed_menu_active");
 });
 
 

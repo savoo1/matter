@@ -44,6 +44,9 @@ img{
 	-webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
 }
+.leaflet-top .leaflet-control{
+	margin-top: 95px;
+}
 // def code end
 
 // components
@@ -59,6 +62,7 @@ img{
 	left: 18rem;
 	right: 18rem;
 	bottom: 0;
+	z-index: 9999999;
 	background: rgba(255, 255, 255, 0.75);
 	-webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
@@ -83,11 +87,25 @@ img{
 	width: 100%;
 	position: relative;
 	padding-top: 6rem;
+	z-index: 99999998 !important;
 	-webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
 	    -ms-transition: all .25s ease;
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
+
+	.showed_menu{
+		height: 0;
+		overflow: hidden;
+		-webkit-transition: all .5s ease;
+		   -moz-transition: all .5s ease;
+		    -ms-transition: all .5s ease;
+		     -o-transition: all .5s ease;
+		        transition: all .5s ease;
+	}
+	.showed_menu_active{
+		height: calc(100vh - 6rem);
+	}
 	.title{
 		position: fixed;
 		height: 6rem;
@@ -326,9 +344,102 @@ img{
 				}
 			}
 		}
+		.box_normal{
+			display: block;
+			width: calc(100% - 0.4rem);
+			margin: auto;
+			min-height: 4.4rem;
+			background: #43B02A;
+			border-radius: 0.5rem;
+			position: relative;
+			margin-bottom: 0.2rem;
+			overflow: hidden;
+			-webkit-transition: all .25s ease;
+			   -moz-transition: all .25s ease;
+			    -ms-transition: all .25s ease;
+			     -o-transition: all .25s ease;
+			        transition: all .25s ease;
+			.tit{
+				min-height: 4.4rem;
+				width: 100%;
+				position: relative;
+				padding-left: 4.1rem;
+				padding-top: 0.6rem;
+				padding-bottom: 0.6rem;
+				overflow: hidden;
+				svg{
+					position: absolute;
+					left: 1.8rem;
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					max-width: 1.5rem;
+					path{
+						fill: #fff;
+					}
+				}
+				h2{
+					font-family: 'Oswald', sans-serif;
+					font-size: 0.7rem;
+					font-weight: 500;
+					color: #fff;
+					white-space: nowrap;
+					span{
+						font-weight: 300;
+					}
+				}
+				h1{
+					font-family: 'Oswald', sans-serif;
+					font-size: 1.8rem;
+					font-weight: 700;
+					color: #fff;
+					margin-top: -0.3rem;
+					white-space: nowrap;
+				}
+			}
+		}
 		.box:hover{
 			background: #3B9A25;
 		}
+		.green1{
+			background: #43B02A;
+		}
+		.green1:hover{
+			background: #3B9A25;
+		}
+		.green2{
+			background: #3B9A25;
+		}
+		.green3{
+			background: #328420;
+		}
+		.white_c{
+			background: #fff;
+			.tit{
+				svg{
+					path{
+						fill: #3EC856;
+					}
+				}
+				h1,h2{
+					color: #3EC856;
+				}
+			}
+		}
+		.white_c:hover{
+			background: #F2F2F1;
+			.tit{
+				svg{
+					path{
+						fill: #3EC856;
+					}
+				}
+				h1,h2{
+					color: #3EC856;
+				}
+			}
+		}
+		
 	}
 	.dropf_active{
 		.clickable svg{
@@ -365,6 +476,8 @@ img{
 	width: 100%;
 	position: relative;
 	padding-top: 6rem;
+	z-index: 99999998 !important;
+
 	-webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
 	    -ms-transition: all .25s ease;
@@ -570,6 +683,7 @@ img{
 	background: rgba(255, 255, 255, 0.9);
 	top: 0;
 	z-index: 2;
+	z-index: 9999999;
 	-webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
 	    -ms-transition: all .25s ease;
@@ -952,14 +1066,24 @@ img{
 		opacity: 0;
 		display: none;
 	}
+	.right_nav .dropf .box_normal .tit{
+		h1,h2{
+			opacity: 0;
+			display: none;
+		}
+	}
 	.right_nav .optimalroute, .right_nav .dropf .box{
 		min-height: 4.8rem;
+		max-height: 4.8rem;
+	}
+	.right_nav .dropf .box_normal{
+		min-height: 4rem;
 		max-height: 4.8rem;
 	}
 	.right_nav .dropf .box input{
 		opacity: 0;
 	}
-	.right_nav .optimalroute svg, .right_nav .dropf .box .tit svg{
+	.right_nav .optimalroute svg, .right_nav .dropf .box .tit svg, .right_nav .dropf .box_normal .tit svg{
 		left: 0;
 		right: 0;
 		margin: auto;
@@ -980,6 +1104,13 @@ img{
 		left: 6rem;
 		right: 6rem;
 	}
+}
+
+.leaflet-top .leaflet-control{
+	margin-top: 7rem !important;
+}
+.leaflet-right .leaflet-control{
+	margin-bottom: 3rem !important;
 }
 
 
