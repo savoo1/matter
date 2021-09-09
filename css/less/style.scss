@@ -1160,6 +1160,7 @@ img{
 				font-size: 0.9rem;
 				line-height: 1rem;
 				color: #fff;
+				margin: 0;
 				// margin-top: 0.5rem;
 				text-align: center;
 				letter-spacing: -0.05rem;
@@ -1331,6 +1332,7 @@ img{
 	}
 	.cont{
 		padding: 0 1.5rem 1.5rem 1.5rem;
+		min-height: 13rem;
 		h2{
 			font-family: 'Oswald', sans-serif;
 			font-weight: 700;
@@ -1363,6 +1365,7 @@ img{
 		justify-content: space-between;
 		padding-right: 1.5rem;
 		padding-left: 1.5rem;
+		position: relative;
 		a{
 			font-family: 'Oswald', sans-serif;
 			font-weight: 400;
@@ -1388,6 +1391,72 @@ img{
 			}
 		}
 
+		.slide_switcher2{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 1.751rem;
+			height: 0.875rem;
+			right: 1.5rem;
+			cursor: pointer;
+			z-index: 9999;
+			span{
+				position: absolute;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 300;
+				font-size: 1rem;
+				line-height: 1rem;
+				color: #fff;
+				top: 50%;
+				transform: translateY(-50%);
+				right: 2rem;
+			}
+			.icons{
+				position: relative;
+				width: 1.751rem;
+				height: 0.875rem;
+				img{
+					top: 50%;
+					transform: translateY(-50%);
+					width: 100%;
+					position: absolute;
+					right: 0;
+				}
+			}
+		}
+		.slide_switcher_off{
+			.icon1{
+				opacity: 0;
+			}
+			.icon2{
+				opacity: 0;
+			}
+			.icon3{
+				opacity: 1;
+			}
+		}
+		.slide_switcher_on{
+			.icon1{
+				opacity: 1;
+			}
+			.icon2{
+				opacity: 0;
+			}
+			.icon3{
+				opacity: 0;
+			}
+		}
+		.slide_switcher_flat{
+			.icon1{
+				opacity: 0 !important;
+			}
+			.icon2{
+				opacity: 1 !important;
+			}
+			.icon3{
+				opacity: 0 !important;
+			}
+		}
 
 		.slide_switcher{
 			margin-top: 0.3rem;
@@ -1454,7 +1523,7 @@ img{
 			  display: block;
 			  position: absolute;
 			  z-index: 0;
-			  top: -0.55rem;
+			  top: -0.35rem;
 			  right: 2.2rem;
 			  padding: 0px;
 			  height: 1rem;
@@ -1493,7 +1562,14 @@ img{
 }
 
 
-
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: transparent !important;
+    color: unset !important;
+    box-shadow: unset !important;
+}
+.leaflet-container a.leaflet-popup-close-button{
+	display: none !important;
+}
 
 
 

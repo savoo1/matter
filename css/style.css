@@ -911,6 +911,7 @@ img {
         font-size: 0.9rem;
         line-height: 1rem;
         color: #fff;
+        margin: 0;
         text-align: center;
         letter-spacing: -0.05rem; }
     .popup_map .items .item1 {
@@ -1047,7 +1048,8 @@ img {
       .popup_map .items .item4 .green_c {
         background: #47E562; }
   .popup_map .cont {
-    padding: 0 1.5rem 1.5rem 1.5rem; }
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    min-height: 13rem; }
     .popup_map .cont h2 {
       font-family: 'Oswald', sans-serif;
       font-weight: 700;
@@ -1073,7 +1075,8 @@ img {
     display: flex;
     justify-content: space-between;
     padding-right: 1.5rem;
-    padding-left: 1.5rem; }
+    padding-left: 1.5rem;
+    position: relative; }
     .popup_map .options a {
       font-family: 'Oswald', sans-serif;
       font-weight: 400;
@@ -1091,6 +1094,53 @@ img {
       color: #F2F2F1; }
       .popup_map .options a:hover svg path {
         fill: #F2F2F1; }
+    .popup_map .options .slide_switcher2 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1.751rem;
+      height: 0.875rem;
+      right: 1.5rem;
+      cursor: pointer;
+      z-index: 9999; }
+      .popup_map .options .slide_switcher2 span {
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2rem; }
+      .popup_map .options .slide_switcher2 .icons {
+        position: relative;
+        width: 1.751rem;
+        height: 0.875rem; }
+        .popup_map .options .slide_switcher2 .icons img {
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+          position: absolute;
+          right: 0; }
+    .popup_map .options .slide_switcher_off .icon1 {
+      opacity: 0; }
+    .popup_map .options .slide_switcher_off .icon2 {
+      opacity: 0; }
+    .popup_map .options .slide_switcher_off .icon3 {
+      opacity: 1; }
+    .popup_map .options .slide_switcher_on .icon1 {
+      opacity: 1; }
+    .popup_map .options .slide_switcher_on .icon2 {
+      opacity: 0; }
+    .popup_map .options .slide_switcher_on .icon3 {
+      opacity: 0; }
+    .popup_map .options .slide_switcher_flat .icon1 {
+      opacity: 0 !important; }
+    .popup_map .options .slide_switcher_flat .icon2 {
+      opacity: 1 !important; }
+    .popup_map .options .slide_switcher_flat .icon3 {
+      opacity: 0 !important; }
     .popup_map .options .slide_switcher {
       margin-top: 0.3rem;
       padding-right: 1rem;
@@ -1149,7 +1199,7 @@ img {
         display: block;
         position: absolute;
         z-index: 0;
-        top: -0.55rem;
+        top: -0.35rem;
         right: 2.2rem;
         padding: 0px;
         height: 1rem;
@@ -1166,3 +1216,11 @@ img {
         content: attr(data-on); }
       .popup_map .options .slide_switcher #checkbox1:checked + .checkbox-label {
         /*box-shadow*/ }
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: transparent !important;
+  color: unset !important;
+  box-shadow: unset !important; }
+
+.leaflet-container a.leaflet-popup-close-button {
+  display: none !important; }

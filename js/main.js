@@ -150,6 +150,28 @@ $( ".right_nav .optimalroute" ).click(function(e) {
 });
 
 
+// popup option icons down right
+$( ".popup_map .options .slide_switcher2" ).click(function(e) {
+	e.preventDefault();
+	if($(this).hasClass("slide_switcher_flat")){
+		if($(this).hasClass("slide_switcher_off")){
+			$(this).find("span").html("ON")
+			$(this).addClass("slide_switcher_on");
+			$(this).removeClass("slide_switcher_off");
+			$(this).removeClass("slide_switcher_flat");
+		}else{
+			$(this).find("span").html("OFF")
+			$(this).addClass("slide_switcher_off");
+			$(this).removeClass("slide_switcher_on");
+			$(this).removeClass("slide_switcher_flat");
+		}
+	}else{
+		$(this).find("span").html("FLAT")
+		$(this).addClass("slide_switcher_flat");
+	}
+});
+
+
 
 
 // on resize everything
