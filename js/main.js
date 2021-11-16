@@ -52,26 +52,41 @@ $( ".top_nav .username_options .clickable" ).click(function(e) {
 // box right menu clicks
 $( ".right_nav .dropf .box" ).click(function(e) {
 	e.preventDefault();
-	$(this).find("input").focus();
-});
-
-// Please select right menu
-var j_height = 0;
-$( ".right_nav .dropf .clickable" ).click(function(e) {
-	e.preventDefault();
-	var getheightofboxes = $(this).parent().find(".eachone").height();
-	if($(this).parent().hasClass("dropf_active")){
-		$(this).parent().removeClass("dropf_active");
-		if(j_height == 1){
-			$(this).parent().find(".boxes").css("max-height", "0");
-			j_height = 0;		
+	if($(this).hasClass("multi_select_list_box")){
+		if(!$(this).hasClass("nomore")){
+			$(this).addClass("multi_select_list_box_active");
+			$(this).addClass("nomore");
 		}
 	}else{
-		$(this).parent().addClass("dropf_active");
-		$(this).parent().find(".boxes").css("max-height", getheightofboxes);
-		j_height = 1;
+		$(this).find("input").focus();
 	}
 });
+$(".right_nav .dropf .box .tit").on('click', function() {
+	var that = this;
+	if($(this).parent().hasClass("multi_select_list_box_active")){
+		$(this).parent().removeClass("multi_select_list_box_active");
+		setTimeout(function(){  
+			console.log($(that).parent().removeClass("nomore"));
+		}, 100);
+	}
+});
+$(".multi_select_list_box .multiselect .arrowright").on('click', function() {
+	var that = this;
+	if($(this).parent().parent().hasClass("multi_select_list_box_active")){
+		$(this).parent().parent().removeClass("multi_select_list_box_active");
+		setTimeout(function(){  
+			console.log($(that).parent().parent().removeClass("nomore"));
+		}, 100);
+	}
+});
+$(".right_nav .dropf .box .multiselect .listforselect p").click(function(e) {
+	if($(this).hasClass("activep")){
+		$(this).removeClass("activep")
+	}else{
+		$(this).addClass("activep")
+	}
+});
+
 
 
 // clicking left/right logo
@@ -141,13 +156,23 @@ $( ".top_nav .searchbar_menu svg" ).click(function(e) {
 
 
 // open new menu on click navbar right
-$( ".right_nav .optimalroute" ).click(function(e) {
+$( ".right_nav .open_new_menu" ).click(function(e) {
 	e.preventDefault();
 	$(".showed_menu_active").removeClass("showed_menu_active");
 
 	var showclassname = "." + $(this).attr("name");
+	var heightofcont = $(showclassname).find(".dropf").height();
+	$(".showed_menu").css("min-height", "0");
+	$(showclassname).css("min-height", heightofcont + "px");
 	$(showclassname).addClass("showed_menu_active");
+
+	var new_title = $(this).attr("alt");
+	if(new_title != null){
+		$(".right_nav .title h1 span").html(new_title);
+	}
 });
+var heightofcontonload = $(".showed_menu_active").find(".dropf").height();
+$(".showed_menu_active").css("min-height", heightofcontonload + "px");
 
 
 // popup option icons down right
@@ -188,6 +213,26 @@ $( window ).resize(function() {
 	}
 });
 
+// Please select right menu
+var j_height = 0;
+$( ".right_nav .dropf .clickable" ).click(function(e) {
+	e.preventDefault();
+	var getheightofboxes = $(this).parent().find(".eachone").height() + 1000;
+	if($(this).parent().hasClass("dropf_active")){
+		$(this).parent().removeClass("dropf_active");
+		if(j_height == 1){
+			$(this).parent().find(".boxes").css("max-height", "0");
+			// $(this).parent().find(".boxes").css("height", "0");
+			j_height = 0;		
+		}
+	}else{
+		$(this).parent().addClass("dropf_active");
+			// $(this).parent().find(".boxes").css("height", "unset");
+		$(this).parent().find(".boxes").css("max-height", getheightofboxes);
+		j_height = 1;
+	}
+});
+
 
 // on focus input
 $( "input" )
@@ -199,6 +244,21 @@ $( "input" )
     $(this).attr("placeholder", "");
   });
 
+// close popup if click anywhere else
+$(document).click(function(event) {
+	if (!$(event.target).closest(".notification_c").length) {
+		$(".notification_c").removeClass("notification_c_active");
+	}
+	if (!$(event.target).closest(".username_options").length) {
+		$(".username_options").removeClass("username_options_active");
+	}
+});
 
 
+// removeright sm on some click
+$(".open_menu_onsm").click(function(event) {
+	if ($(window).width() > 772) {
+		$(".screen_view").removeClass("rightmenu_sm");
+	}
+});
 

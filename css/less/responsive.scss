@@ -15,6 +15,14 @@
 	}
 }
 @media(max-width: 772px){
+	.right_nav .dropf .total_optimal .total{
+		padding-bottom: 0.8rem;
+		padding-top: 0.8rem;
+	}
+	.rightmenu_sm .right_nav .dropf .box{
+		max-height: unset;
+		height: unset;
+	}
 	.footerarea{
 		left: 0;
 		right: 0;
@@ -253,6 +261,7 @@
 	.leftpanel .navbar{
 		// min-height: unset;
 	    min-height: calc(100% - 13.3rem);
+	    max-width: 17rem;
 	}
 	.leftpanel .downnavbar{
 		min-height: unset;
@@ -390,4 +399,11 @@
 	.top_nav .searchbar_menu svg{
 		left: 3.6rem;
 	}
+	.right_nav .title h1{
+		font-size: 1.4rem;
+	}
+	.right_nav .dropf .box .multiselect .arrowright, .rightmenu_sm .right_nav .dropf .clickable svg{
+		right: 0.5rem;
+	}
+
 }

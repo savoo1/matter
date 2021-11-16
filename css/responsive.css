@@ -11,6 +11,12 @@
     font-size: 12px; } }
 
 @media (max-width: 772px) {
+  .right_nav .dropf .total_optimal .total {
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem; }
+  .rightmenu_sm .right_nav .dropf .box {
+    max-height: unset;
+    height: unset; }
   .footerarea {
     left: 0;
     right: 0; }
@@ -166,7 +172,8 @@
     width: 9rem;
     min-width: 9rem; }
   .leftpanel .navbar {
-    min-height: calc(100% - 13.3rem); }
+    min-height: calc(100% - 13.3rem);
+    max-width: 17rem; }
   .leftpanel .downnavbar {
     min-height: unset; }
   .top_nav .notification_c ul {
@@ -265,4 +272,8 @@
   html, body {
     font-size: 10.3px; }
   .top_nav .searchbar_menu svg {
-    left: 3.6rem; } }
+    left: 3.6rem; }
+  .right_nav .title h1 {
+    font-size: 1.4rem; }
+  .right_nav .dropf .box .multiselect .arrowright, .rightmenu_sm .right_nav .dropf .clickable svg {
+    right: 0.5rem; } }
