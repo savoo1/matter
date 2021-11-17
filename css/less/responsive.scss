@@ -23,6 +23,10 @@
 		max-height: unset;
 		height: unset;
 	}
+	.confirmbox p{
+		font-size: 1rem;
+		line-height: 1.1rem;
+	}
 	.footerarea{
 		left: 0;
 		right: 0;
@@ -176,9 +180,13 @@
 			max-width: 18rem;
 		}
 	}
-	.rightmenu_sm .right_nav .dropf .box .tit h1, .rightmenu_sm .right_nav .dropf .box .tit h2{
+	.rightmenu_sm .right_nav .dropf .box .tit h1, .rightmenu_sm .right_nav .dropf .box .tit h2, .rightmenu_sm .right_nav .dropf .box .tit h3{
 		opacity: 1;
 		display: block;
+	}
+	.rightmenu_sm .right_nav .dropf .box .tit .smaller_mobile{
+		font-size: 1.4rem;
+	    margin-top: 0.1rem;
 	}
 	.right_nav .dropf .box_normal .tit{
 		h1, h2{
