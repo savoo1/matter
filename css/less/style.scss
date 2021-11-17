@@ -1383,7 +1383,8 @@ img{
 	}
 	.work_panel{
 		// max-width: calc(100% - 24rem);
-		left: 6rem;
+		left: 0rem;
+
 	}	
 	.leftpanel .logo_pl img, .leftpanel .navbar li a .icon{
 		left: 1.85rem;
@@ -1414,7 +1415,7 @@ img{
 	}
 	.work_panel{
 		// max-width: calc(100% - 24rem);
-		right: 6rem;
+		right: 0rem;
 	}
 	.title{
 		max-width: 6rem;
@@ -1499,8 +1500,8 @@ img{
 .bothmenu_ac{
 	.work_panel{
 		// max-width: calc(100% - 12rem);
-		right: 6rem;
-		left: 6rem;
+		right: 0rem;
+		left: 0rem;
 	}
 	.footerarea{
 		left: 6rem;

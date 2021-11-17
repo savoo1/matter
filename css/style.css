@@ -1033,7 +1033,7 @@ img {
     left: 6rem; }
 
 .leftmenu_sm .work_panel {
-  left: 6rem; }
+  left: 0rem; }
 
 .leftmenu_sm .leftpanel .logo_pl img, .leftmenu_sm .leftpanel .navbar li a .icon {
   left: 1.85rem; }
@@ -1059,7 +1059,7 @@ img {
   right: 6rem; }
 
 .rightmenu_sm .work_panel {
-  right: 6rem; }
+  right: 0rem; }
 
 .rightmenu_sm .title {
   max-width: 6rem; }
@@ -1126,8 +1126,8 @@ img {
       margin: auto; } }
 
 .bothmenu_ac .work_panel {
-  right: 6rem;
-  left: 6rem; }
+  right: 0rem;
+  left: 0rem; }
 
 .bothmenu_ac .footerarea {
   left: 6rem;
