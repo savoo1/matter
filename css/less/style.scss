@@ -298,6 +298,9 @@ img{
 		.boxes{
 			max-height: 0;
 			overflow: hidden;
+			.eachone{
+				padding-bottom: 3.1rem;
+			}
 			-webkit-transition: all .25s ease;
 			   -moz-transition: all .25s ease;
 			    -ms-transition: all .25s ease;
@@ -605,7 +608,7 @@ img{
 		.multi_select_list_box_active{
 			.multiselect{
 				.listforselect{
-					max-height: 8.4rem;
+					max-height: 10.4rem;
 					overflow: auto;
 				}
 				.arrowright{

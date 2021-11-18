@@ -251,6 +251,8 @@ img {
       -ms-transition: all .25s ease;
       -o-transition: all .25s ease;
       transition: all .25s ease; }
+      .right_nav .dropf .boxes .eachone {
+        padding-bottom: 3.1rem; }
     .right_nav .dropf .total_optimal {
       display: flex;
       border-bottom-left-radius: 0.5rem;
@@ -508,7 +510,7 @@ img {
           .right_nav .dropf .box_normal .tit h3 span {
             font-weight: 300; }
     .right_nav .dropf .multi_select_list_box_active .multiselect .listforselect {
-      max-height: 8.4rem;
+      max-height: 10.4rem;
       overflow: auto; }
     .right_nav .dropf .multi_select_list_box_active .multiselect .arrowright {
       transform: rotate(180deg); }
