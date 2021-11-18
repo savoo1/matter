@@ -287,6 +287,11 @@
 	.rightmenu_sm .top_nav .notification_c ul, .rightmenu_sm .top_nav .username_options ul{
 		right: 18rem;
 	}
+	.screen_view_without_rs{
+		.top_nav .username_options ul{
+			right: 0;
+		}
+	}
 	
 }
 @media(max-width: 550px){

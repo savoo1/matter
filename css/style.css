@@ -48,6 +48,9 @@ img {
 .screen_view_without_rs .footerarea, .screen_view_without_rs .work_panel, .screen_view_without_rs .top_nav {
   right: 0 !important; }
 
+.screen_view_without_rs .top_nav .username_options ul {
+  right: 1.5rem; }
+
 .screen_view_without_rs.leftmenu_sm .work_panel {
   left: 0; }
 

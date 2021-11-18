@@ -190,7 +190,9 @@
   .leftmenu_sm .top_nav .notification_c ul {
     left: 18rem; }
   .rightmenu_sm .top_nav .notification_c ul, .rightmenu_sm .top_nav .username_options ul {
-    right: 18rem; } }
+    right: 18rem; }
+  .screen_view_without_rs .top_nav .username_options ul {
+    right: 0; } }
 
 @media (max-width: 550px) {
   .top_nav .notification_c .notification_c_icon svg {
