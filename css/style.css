@@ -851,7 +851,8 @@ img {
         align-items: center;
         justify-content: left;
         padding-left: 7.7rem;
-        position: relative; }
+        position: relative;
+        z-index: 9999999; }
         .work_panel .dashbouard_panel .council_name .left_box svg {
           max-width: 4rem;
           position: absolute;
