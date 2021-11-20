@@ -557,7 +557,11 @@
 		max-width: 100%;
 	}
 	.leftpanel .on_mobile_nav{
-		margin-left: -50%;
+		margin: 0 !important;
+		left: -50%; 
+	}
+	.leftmenu_sm .leftpanel .on_mobile_nav{
+		left: 0;
 	}
 	.rightmenu_sm .top_nav .searchbar_menu input{
 		width: calc(100% - 21rem);
@@ -580,9 +584,6 @@
 @media(max-width: 390px){
 	html, body{
 		font-size: 11.2px;
-	}
-	.leftpanel .navbar{
-		max-width: 17rem;
 	}
 }
 @media(max-width: 370px){
