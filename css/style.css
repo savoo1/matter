@@ -255,6 +255,8 @@ img {
       -ms-transition: all .25s ease;
       -o-transition: all .25s ease;
       transition: all .25s ease; }
+      .right_nav .dropf .boxes .eachone {
+        padding-bottom: 1.7rem; }
       .right_nav .dropf .boxes .directions_max_h {
         max-height: 46rem;
         overflow: auto; }
