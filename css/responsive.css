@@ -236,6 +236,8 @@
     width: 18rem;
     margin-right: 0 !important;
     right: -18rem;
+    height: unset;
+    min-height: unset;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
