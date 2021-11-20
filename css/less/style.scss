@@ -311,6 +311,9 @@ img{
 				@media(max-height: 60rem){
 					max-height: calc(100vh - 20rem);
 				}
+				@media(max-width: 772px){
+					max-height: calc(100vh - 20rem);
+				}
 			}
 			-webkit-transition: all .25s ease;
 			   -moz-transition: all .25s ease;

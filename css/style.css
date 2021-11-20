@@ -263,6 +263,9 @@ img {
         @media (max-height: 60rem) {
           .right_nav .dropf .boxes .directions_max_h {
             max-height: calc(100vh - 20rem); } }
+        @media (max-width: 772px) {
+          .right_nav .dropf .boxes .directions_max_h {
+            max-height: calc(100vh - 20rem); } }
     .right_nav .dropf .total_optimal {
       display: flex;
       border-bottom-left-radius: 0.5rem;
