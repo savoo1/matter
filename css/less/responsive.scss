@@ -550,8 +550,14 @@
 	.leftmenu_sm .leftpanel .logo_pl, .rightmenu_sm .right_nav .title{
 		max-width: 50%;
 	}
-	.leftmenu_sm .leftpanel .on_mobile_nav, .rightmenu_sm .right_nav{
+	.leftpanel .on_mobile_nav, .leftmenu_sm .leftpanel .on_mobile_nav, .rightmenu_sm .right_nav{
 		max-width: 50%;
+	}
+	.leftpanel .navbar{
+		max-width: 100%;
+	}
+	.leftpanel .on_mobile_nav{
+		margin-left: -50%;
 	}
 	.rightmenu_sm .top_nav .searchbar_menu input{
 		width: calc(100% - 21rem);
