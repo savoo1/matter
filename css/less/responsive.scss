@@ -371,8 +371,8 @@
 	}
 	.rightmenu_sm .right_nav .right_nav_phone{
 	    overflow: auto;
-	    height: calc(100vh - 6rem);
-	    min-height: calc(100vh - 6rem);
+	    height: unset;
+	    min-height: unset;
 	    // padding-bottom: 6rem;
 	}
 	.leftpanel .downnavbar{

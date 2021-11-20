@@ -258,8 +258,8 @@
     min-height: 4.4rem; }
   .rightmenu_sm .right_nav .right_nav_phone {
     overflow: auto;
-    height: calc(100vh - 6rem);
-    min-height: calc(100vh - 6rem); }
+    height: unset;
+    min-height: unset; }
   .leftpanel .downnavbar {
     padding-bottom: 2rem; }
   .top_nav .username_options .clickable span {
