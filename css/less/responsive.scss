@@ -1,3 +1,43 @@
+@media(max-width: 1550px){
+	.work_panel .dashbouard_panel .title_row .title{
+		width: calc(45% - 0.1rem);
+	}
+	.work_panel .dashbouard_panel .title_row .period{
+		width: calc(55% - 0.1rem);
+	}
+	.work_panel .dashbouard_panel .council_name .left_box .seletbox{
+		max-width: calc(32.5% - 0.1rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row2 .box_list .tit{
+		font-size: 0.8rem;
+	}
+}
+@media(max-width: 1350px){
+	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead{
+		padding-left: 5rem;
+	}
+	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg{
+		left: 1rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox svg{
+		max-width: 2.5rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox{
+		padding-left: 5rem;
+	}
+	.work_panel .dashbouard_panel .council_name .left_box h1{
+		font-size: 2.5rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row2 .box_list .li_p, .work_panel .dashbouard_panel .two_separate_area .l .row2 .box_list .tit{
+		padding: 0 1rem;
+	}
+	.work_panel .dashbouard_panel .council_name  .seletbox .custom-select-trigger{
+		padding-left: 1rem;
+	}
+	.work_panel .dashbouard_panel .council_name  .seletbox .custom-select-trigger:after{
+		right: 0.5rem;
+	}
+}
 @media(max-width: 1200px){
 	html,body{
 		font-size: 13px;
@@ -8,13 +48,83 @@
 	.leftpanel .logo_pl .logo_smaller{
 		margin-top: 0;
 	}
+	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead{
+		padding-left: 4rem;
+	}
+	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg{
+		max-width: 2.5rem;
+	}
 }
 @media(max-width: 805px){
 	html,body{
 		font-size: 12px;
 	}
 }
+@media(max-width: 1000px){
+	.work_panel .dashbouard_panel .two_separate_area{
+		display: block;
+		.l, .r{
+			width: 100%;
+		}
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .scrollablecont{
+		height: unset;
+		overflow: unset;
+	}
+	.work_panel .dashbouard_panel .council_name{
+		width: 100%;
+		display: block;
+		.left_box{
+			width: 100%;
+			margin-bottom: 0.2rem;
+		}
+		.right_box{
+			width: 100%;
+		}
+	}
+	.work_panel .dashbouard_panel .boxes6{
+		display: block;
+		width: 100%;
+		position: relative;
+		.leftb{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			.box{
+				vertical-align: top;
+				max-width: calc(33.33% - 0.2rem);
+				width: calc(33.33% - 0.2rem);
+				margin-bottom: 0.2rem;
+				flex-grow: 1;
+			}
+		}
+	}
+	.work_panel .dashbouard_panel .boxes6 .rightb{
+		position: absolute;
+		right: 0;
+		top: 4.6rem;
+		width: calc(66.67% - 0.1rem);
+	}
+	.work_panel .dashbouard_panel .boxes6 .rightb .box{
+		width: calc(50% - 0.15rem);
+	}
+	.daterangepicker.ltr{
+		z-index: 999999999999;
+	}
+}
 @media(max-width: 772px){
+
+	.work_panel .dashbouard_panel .title_row{
+		display: block;
+		.title{
+			width: 100%;
+			margin-bottom: 0.2rem;
+			position: relative;
+		}
+		.period{
+			width: 100%;
+		}
+	}
 	.right_nav .dropf .total_optimal .total{
 		padding-bottom: 0.8rem;
 		padding-top: 0.8rem;
@@ -110,6 +220,7 @@
 		top: 0;
 		bottom: 0;
 		min-height: unset;
+		overflow: auto;
 	}
 	.screen_view{
 		display: block;
@@ -221,7 +332,8 @@
 	    min-height: calc(100vh - 6rem);
 	    padding-bottom: 6rem;
 	    width: 18rem;
-	    margin-right: -18rem;
+	    margin-right: 0 !important;
+	    right: -18rem;
 	    -webkit-transition: all .25s ease;
 	       -moz-transition: all .25s ease;
 	        -ms-transition: all .25s ease;
@@ -230,7 +342,7 @@
 	}
 	.rightmenu_sm {
 		.right_nav .right_nav_phone{
-			margin-right: 0;
+			right: 0;
 		}
 	}
 	.rightmenu_sm .right_nav .dropf .clickable h2{
@@ -275,7 +387,7 @@
 	.leftpanel .navbar{
 		// min-height: unset;
 	    min-height: calc(100% - 13.3rem);
-	    max-width: 17rem;
+	    max-width: 18rem;
 	}
 	.leftpanel .downnavbar{
 		min-height: unset;
@@ -348,6 +460,58 @@
 		height: 2rem;
 	}
 }
+@media(max-width: 500px){
+	.work_panel .dashbouard_panel .boxes6 .leftb .box{
+		max-width: calc(50% - 0.1rem);
+		width: calc(50% - 0.1rem);
+	}
+	.work_panel .dashbouard_panel .boxes6 .rightb{
+		position: relative;
+		top: unset;
+		width: 100%;
+	}
+	.work_panel .dashbouard_panel .boxes6 .rightb .box{
+		width: calc(50% - 0.1rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row1{
+		flex-wrap: wrap;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row1 .box{
+		width: calc(50% - 0.1rem);
+		max-width: calc(50% - 0.1rem);
+		flex-grow: 1;
+		margin-bottom: 0.2rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row2{
+		flex-wrap: wrap;
+		.box{
+			width: 100%;
+			max-width: 100%;
+		}
+		.box_list{
+			width: calc(33.33% - 0.2rem);
+			max-width: calc(33.33% - 0.2rem);
+		}
+	}
+	.work_panel .dashbouard_panel .council_name .left_box .seletbox{
+		max-width: 100%;
+		top: 6rem;
+		.custom-select-trigger{
+			padding-top: 0.5rem;
+			border-top-right-radius: 0;
+			border-bottom-left-radius: 0.5rem;
+		}
+		.custom-select-trigger:after{
+			top: 50%;
+		}
+	}
+	.work_panel .dashbouard_panel .council_name .left_box .name_c{
+		padding-bottom: 2rem;
+	}
+	.work_panel .dashbouard_panel .council_name .left_box svg{
+		top: calc(50% - 1rem);
+	}
+}
 @media(max-width: 480px){
 	// html, body{
 	// 	font-size: 11px;
@@ -395,6 +559,9 @@
 @media(max-width: 390px){
 	html, body{
 		font-size: 11.2px;
+	}
+	.leftpanel .navbar{
+		max-width: 17rem;
 	}
 }
 @media(max-width: 370px){
