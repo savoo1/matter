@@ -43,6 +43,9 @@
     font-size: 12px; } }
 
 @media (max-width: 1000px) {
+  .work_panel {
+    overflow: auto;
+    max-height: calc(100vh - 6rem); }
   .work_panel .dashbouard_panel .two_separate_area {
     display: block; }
     .work_panel .dashbouard_panel .two_separate_area .l, .work_panel .dashbouard_panel .two_separate_area .r {
@@ -158,6 +161,7 @@
     right: 0;
     top: 0;
     bottom: 0;
+    max-height: unset;
     min-height: unset;
     overflow: auto; }
   .screen_view {
