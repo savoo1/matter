@@ -296,5 +296,5 @@ $(".confirmbox .btns .close").click(function(e) {
 // on load made maxheight of directions route
 if ($(window).width() < 772) {
 	var getheightofrightnav = $(".right_nav .right_nav_phone").height();
-	$(".right_nav .dropf .boxes .directions_max_h").css("max-height", "calc("+getheightofrightnav + "px - 13rem)")
+	$(".right_nav .dropf .boxes .directions_max_h").css("height", "calc("+getheightofrightnav + "px - 13rem)")
 }
