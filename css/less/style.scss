@@ -312,7 +312,7 @@ img{
 					max-height: calc(100vh - 20rem);
 				}
 				@media(max-width: 772px){
-					max-height: calc(100vh - 20rem);
+					max-height: calc(100% - 20rem);
 				}
 			}
 			-webkit-transition: all .25s ease;
