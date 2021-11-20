@@ -81,11 +81,19 @@
     top: 4.6rem;
     width: calc(66.67% - 0.1rem); }
   .work_panel .dashbouard_panel .boxes6 .rightb .box {
-    width: calc(50% - 0.15rem); }
-  .daterangepicker.ltr {
-    z-index: 999999999999; } }
+    width: calc(50% - 0.15rem); } }
+
+.daterangepicker.ltr {
+  z-index: 999999999999; }
 
 @media (max-width: 772px) {
+  .daterangepicker.ltr {
+    max-height: calc(100vh - 30rem);
+    overflow: auto; }
+  .daterangepicker.ltr {
+    left: 0.2rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important; }
   .work_panel .dashbouard_panel .title_row {
     display: block; }
     .work_panel .dashbouard_panel .title_row .title {
