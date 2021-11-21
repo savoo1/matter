@@ -37,10 +37,51 @@
 	.work_panel .dashbouard_panel .council_name  .seletbox .custom-select-trigger:after{
 		right: 0.5rem;
 	}
+	.work_panel .dashbouard_panel .title_row{
+		display: block;
+		.title{
+			width: 100%;
+			margin-bottom: 0.2rem;
+			position: relative;
+		}
+		.period{
+			width: 100%;
+		}
+	}
+	.work_panel .dashbouard_panel .contenttext, .work_panel .dashbouard_panel .items_box{
+		max-width: calc(100% - 2rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .scrollablecont{
+		height: calc(100vh - 30.3rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont{
+		max-height: calc(100vh - 33.3rem);
+	}
 }
 @media(max-width: 1200px){
 	html,body{
 		font-size: 13px;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .scrollablecont{
+		height: calc(100vh - 38.3rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont{
+		max-height: calc(100vh - 41.3rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .list_right_side .scrollablecont{
+		overflow: auto;
+		max-height: calc(100vh - 44rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .list_right_side .toolbar_c a{
+		margin-right: 0;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .list_right_side .toolbar_c input{
+		margin: 0;
+		margin-right: 0.5rem;
+		margin-left: 0.5rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .list_right_side .box_list .li_p .rs{
+		min-width: 7rem;
 	}
 	.top_nav .searchbar_menu, .leftmenu_sm .leftpanel .logo_pl .logo, .right_nav .title h1, .top_nav .username_options .clickable, .top_nav .notification_c .notification_c_icon svg{
 		top: 50%;
@@ -54,6 +95,20 @@
 	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg{
 		max-width: 2.5rem;
 	}
+	.work_panel .dashbouard_panel .council_name{
+		width: 100%;
+		display: block;
+		.left_box{
+			width: 100%;
+			margin-bottom: 0.2rem;
+		}
+		.right_box{
+			width: 100%;
+		}
+	}
+	.work_panel .dashbouard_panel .contenttext, .work_panel .dashbouard_panel .items_box{
+		max-width: calc(100% - 4rem);
+	}
 }
 @media(max-width: 805px){
 	html,body{
@@ -61,6 +116,34 @@
 	}
 }
 @media(max-width: 1000px){
+	.work_panel .dashbouard_panel .two_separate_area .list_right_side .scrollablecont{
+		max-height: unset;
+		overflow: unset;
+		padding-bottom: 5.3rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont{
+		max-height: unset;
+	}
+	.work_panel .dashbouard_panel .two_separate_area_for_boxestop{
+		padding-top: 4.6rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area_for_boxestop .list_right_side .rightb{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.work_panel .dashbouard_panel .two_separate_area_for_boxestop{
+		margin-top: 0;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .without_mh{
+		max-height: unset;
+	}
+	.work_panel .dashbouard_panel .two_separate_area_for_boxestop .list_right_side{
+		position: unset;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .list_right_side .toolbar_c{
+		bottom: 2.3rem;
+	}
 	.work_panel{
 		overflow: auto;
 		max-height: calc(100vh - 6rem);
@@ -75,17 +158,7 @@
 		height: unset;
 		overflow: unset;
 	}
-	.work_panel .dashbouard_panel .council_name{
-		width: 100%;
-		display: block;
-		.left_box{
-			width: 100%;
-			margin-bottom: 0.2rem;
-		}
-		.right_box{
-			width: 100%;
-		}
-	}
+	
 	.work_panel .dashbouard_panel .boxes6{
 		display: block;
 		width: 100%;
@@ -120,22 +193,12 @@
 	.daterangepicker.ltr{
 		max-height: calc(100vh - 30rem);
 		overflow: auto;
+		min-height: 20rem;
 	}
 	.daterangepicker.ltr{
 		left: 0.2rem !important;
 		margin-right: auto !important;
 		margin-left: auto !important;
-	}
-	.work_panel .dashbouard_panel .title_row{
-		display: block;
-		.title{
-			width: 100%;
-			margin-bottom: 0.2rem;
-			position: relative;
-		}
-		.period{
-			width: 100%;
-		}
 	}
 	.right_nav .dropf .total_optimal .total{
 		padding-bottom: 0.8rem;
@@ -428,6 +491,17 @@
 	
 }
 @media(max-width: 550px){
+	.work_panel .dashbouard_panel .two_separate_area .l .per2col_inrow{
+		display: block;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .mt0 .per2col_inrow .box{
+		max-width: 100%;
+		width: 100%;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .per2col_inrow .box{
+		width: 100%;
+		max-width: 100%;
+	}
 	.top_nav .notification_c .notification_c_icon svg{
 		left: 1.2rem;
 	}
@@ -476,6 +550,15 @@
 	}
 }
 @media(max-width: 500px){
+	.work_panel .dashbouard_panel .two_separate_area_for_boxestop{
+		margin-top: 0.2rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .row1{
+		max-height: unset;
+	}
+	.work_panel .dashbouard_panel .two_separate_area_for_boxestop .l .per2col_inrow{
+		margin: 0;
+	}
 	.work_panel .dashbouard_panel .boxes6 .leftb .box{
 		max-width: calc(50% - 0.1rem);
 		width: calc(50% - 0.1rem);
@@ -520,11 +603,24 @@
 			top: 50%;
 		}
 	}
-	.work_panel .dashbouard_panel .council_name .left_box .name_c{
+	.work_panel .dashbouard_panel .council_name_select_box .left_box .name_c{
 		padding-bottom: 2rem;
 	}
-	.work_panel .dashbouard_panel .council_name .left_box svg{
+	.work_panel .dashbouard_panel .council_name_select_box .left_box svg{
 		top: calc(50% - 1rem);
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l{
+		min-height: unset;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .scrollablecont{
+		padding-bottom: 0.5rem;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .per2col_inrow{
+		display: block;
+	}
+	.work_panel .dashbouard_panel .two_separate_area .l .per2col_inrow .box{
+		width: 100%;
+		max-width: 100%;
 	}
 }
 @media(max-width: 480px){
