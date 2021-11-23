@@ -629,12 +629,262 @@ img {
   -ms-transition: all .25s ease;
   -o-transition: all .25s ease;
   transition: all .25s ease; }
+  .work_panel .dashbouard_panel_table {
+    position: relative;
+    max-width: calc(100vw - 18rem);
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+    .work_panel .dashbouard_panel_table .title_row_bin .title {
+      width: 100% !important;
+      max-width: 100% !important; }
+    .work_panel .dashbouard_panel_table .toolbar_c {
+      position: absolute;
+      left: 0.2rem;
+      right: 0.2rem;
+      bottom: 4rem;
+      min-height: 2rem;
+      background: #F8F8F8;
+      border-radius: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+      .work_panel .dashbouard_panel_table .toolbar_c .eneterpp {
+        display: inline-block; }
+      .work_panel .dashbouard_panel_table .toolbar_c .custom-select-wrapper {
+        margin-right: 1rem; }
+      .work_panel .dashbouard_panel_table .toolbar_c .custom-select-trigger {
+        position: relative;
+        top: unset;
+        left: unset;
+        bottom: unset;
+        right: unset;
+        padding: 0 0.7rem 0 0.5rem;
+        line-height: 2.2rem;
+        border-radius: 0.5rem;
+        display: inline-block;
+        background: #fff;
+        margin-right: 1rem; }
+      .work_panel .dashbouard_panel_table .toolbar_c .custom-select-wrapper:last-child .custom-select-trigger {
+        margin-right: 0; }
+      .work_panel .dashbouard_panel_table .toolbar_c .custom-options {
+        background: #F8F8F8;
+        top: unset !important;
+        bottom: 2rem; }
+        .work_panel .dashbouard_panel_table .toolbar_c .custom-options .custom-option {
+          padding-left: 0.5rem; }
+      .work_panel .dashbouard_panel_table .toolbar_c .custom-select-trigger:after {
+        top: 50%;
+        right: 0.5rem; }
+      .work_panel .dashbouard_panel_table .toolbar_c .custom-select-wrapper {
+        position: relative;
+        top: unset;
+        left: unset;
+        bottom: unset;
+        right: unset;
+        display: inline-block; }
+      .work_panel .dashbouard_panel_table .toolbar_c p {
+        padding: 0 0.5rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #53565A;
+        display: inline-block;
+        margin-right: 0.2rem;
+        text-decoration: none; }
+      .work_panel .dashbouard_panel_table .toolbar_c a {
+        padding: 0 0.5rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #53565A;
+        display: inline-block;
+        margin-right: 1rem;
+        text-decoration: none;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+      .work_panel .dashbouard_panel_table .toolbar_c a:hover {
+        color: #5BBA45; }
+      .work_panel .dashbouard_panel_table .toolbar_c input {
+        border: 0;
+        max-width: 2rem;
+        line-height: 2rem;
+        border-radius: 0.5rem;
+        background: #fff;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #53565A;
+        text-align: center;
+        margin-left: 0.5rem;
+        margin-right: 1.5rem; }
+      .work_panel .dashbouard_panel_table .toolbar_c ul {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        margin-left: 0.5rem;
+        margin-right: 1.5rem; }
+        .work_panel .dashbouard_panel_table .toolbar_c ul li {
+          list-style-type: none;
+          display: inline-block;
+          margin-bottom: 0; }
+          .work_panel .dashbouard_panel_table .toolbar_c ul li a {
+            border: 0;
+            max-width: 2rem;
+            line-height: 2rem;
+            border-radius: 0.5rem;
+            background: transparent;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 2rem;
+            color: #53565A;
+            text-align: center;
+            margin-bottom: 0;
+            margin-right: 0;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease; }
+          .work_panel .dashbouard_panel_table .toolbar_c ul li a:hover {
+            color: #43B02A; }
+        .work_panel .dashbouard_panel_table .toolbar_c ul .activea a {
+          background: #fff;
+          color: #43B02A; }
   .work_panel .dashbouard_panel {
     min-height: calc(100vh - 6rem);
     background: #F8F8F8;
     width: 100%;
     margin-top: 6rem;
     padding: 0.2rem; }
+    .work_panel .dashbouard_panel *::-webkit-scrollbar {
+      height: 3px; }
+    .work_panel .dashbouard_panel .place_table {
+      min-height: 2rem;
+      max-height: calc(100vh - 16rem);
+      overflow: auto;
+      max-width: 100%; }
+      .work_panel .dashbouard_panel .place_table svg {
+        height: 1rem; }
+      .work_panel .dashbouard_panel .place_table .h1081 {
+        height: 1.081rem; }
+      .work_panel .dashbouard_panel .place_table .h625 {
+        height: 0.625rem; }
+      .work_panel .dashbouard_panel .place_table .h875 {
+        height: 0.875rem; }
+      .work_panel .dashbouard_panel .place_table table {
+        border-collapse: separate; }
+      .work_panel .dashbouard_panel .place_table td:first-child {
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem; }
+      .work_panel .dashbouard_panel .place_table td:last-child {
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem; }
+      .work_panel .dashbouard_panel .place_table table {
+        border-spacing: 0;
+        width: 100%; }
+        .work_panel .dashbouard_panel .place_table table tr {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem; }
+        .work_panel .dashbouard_panel .place_table table th {
+          font-family: 'Oswald', sans-serif;
+          font-weight: 300;
+          font-size: 1rem;
+          line-height: 3rem;
+          color: #53565A;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          min-height: 3rem;
+          text-align-last: left;
+          white-space: nowrap; }
+        .work_panel .dashbouard_panel .place_table table th:first-child {
+          padding-left: 2rem; }
+        .work_panel .dashbouard_panel .place_table table td:first-child {
+          padding-left: 2rem; }
+        .work_panel .dashbouard_panel .place_table table tr {
+          background: #fff; }
+        .work_panel .dashbouard_panel .place_table table tr:first-child {
+          background: transparent; }
+        .work_panel .dashbouard_panel .place_table table td {
+          font-family: 'Oswald', sans-serif;
+          font-weight: 200;
+          font-size: 1rem;
+          line-height: 3rem;
+          color: #53565A;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          min-height: 3rem;
+          text-align-last: left;
+          white-space: nowrap;
+          border-top: 0.2rem #F8F8F8 solid; }
+          .work_panel .dashbouard_panel .place_table table td .lefticon {
+            width: 1rem; }
+        .work_panel .dashbouard_panel .place_table table td:nth-child(6) {
+          padding-right: 2rem; }
+        .work_panel .dashbouard_panel .place_table table td:nth-child(9) {
+          padding-right: 2rem; }
+        .work_panel .dashbouard_panel .place_table table td:first-child .forsvg {
+          width: 1rem; }
+        .work_panel .dashbouard_panel .place_table table td:nth-last-child(1), .work_panel .dashbouard_panel .place_table table th:nth-last-child(1), .work_panel .dashbouard_panel .place_table table td:nth-last-child(2), .work_panel .dashbouard_panel .place_table table th:nth-last-child(2), .work_panel .dashbouard_panel .place_table table td:nth-last-child(3), .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) {
+          width: 2rem !important;
+          padding: 0; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) .forsvg, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) .forsvg, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) .forsvg, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) .forsvg, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) .forsvg, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) .forsvg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2rem !important; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a svg .fill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a svg .fill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a svg .fill {
+            fill: #53565a;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a:hover svg .fill {
+            fill: #72C45F; }
+        .work_panel .dashbouard_panel .place_table table .disabled_c a {
+          pointer-events: none;
+          cursor: default; }
+          .work_panel .dashbouard_panel .place_table table .disabled_c a svg .fill {
+            fill: #CACAC7 !important; }
+        .work_panel .dashbouard_panel .place_table table .disabled_c a:hover svg .fill {
+          fill: #CACAC7 !important; }
+        .work_panel .dashbouard_panel .place_table table td:nth-last-child(1), .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) {
+          padding-right: 2rem;
+          width: 4rem; }
+        .work_panel .dashbouard_panel .place_table table .greenc {
+          color: #3EC856; }
+        .work_panel .dashbouard_panel .place_table table .redc {
+          color: #F2050D; }
+        .work_panel .dashbouard_panel .place_table table .yellowc {
+          color: #FDB514; }
+        .work_panel .dashbouard_panel .place_table table .regular_w {
+          font-weight: 400; }
+        .work_panel .dashbouard_panel .place_table table .bold_w {
+          font-weight: 700; }
+        .work_panel .dashbouard_panel .place_table table .light_w {
+          font-weight: 300; }
+        .work_panel .dashbouard_panel .place_table table .e_light_w {
+          font-weight: 200; }
+        .work_panel .dashbouard_panel .place_table table .forsvg {
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          min-height: 3rem; }
+        .work_panel .dashbouard_panel .place_table table .disabled_c {
+          color: #CACAC7; }
+      .work_panel .dashbouard_panel .place_table .bin_type_table td:nth-last-child(4) {
+        width: 100%; }
+      .work_panel .dashbouard_panel .place_table .bin_type_table td:nth-child(2) {
+        padding-right: 2rem; }
     .work_panel .dashbouard_panel .two_separate_area {
       position: relative;
       display: flex;
@@ -1174,6 +1424,92 @@ img {
           padding-left: 2rem;
           padding-right: 4rem;
           background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.328' height='3.399' viewBox='0 0 6.328 3.399'%3E%3Cpath id='Path_372' data-name='Path 372' d='M9.774,3.5l-2.8,2.682a.406.406,0,0,1-.256.111.372.372,0,0,1-.243-.1L3.663,3.5A.351.351,0,1,1,4.149,3L6.719,5.459,9.288,3a.351.351,0,0,1,.486.505Z' transform='translate(-3.555 -2.898)' fill='%2353565a'/%3E%3C/svg%3E%0A") no-repeat calc(100% - 2rem) center/0.65rem, linear-gradient(#F8F8F8 100%, #F8F8F8 100%); }
+    .work_panel .dashbouard_panel .title_row_bin .title {
+      width: 100%; }
+    .work_panel .dashbouard_panel .title_row_bin .bnts_box {
+      min-height: 3rem;
+      border-radius: 0.5rem;
+      background: #fff;
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
+      padding: 0 2.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap; }
+      .work_panel .dashbouard_panel .title_row_bin .bnts_box a {
+        font-size: 1rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        line-height: 2.2rem;
+        color: #fff;
+        padding: 0 1.7rem;
+        background: #43B02A;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        display: inline-block;
+        white-space: nowrap;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+        .work_panel .dashbouard_panel .title_row_bin .bnts_box a span {
+          position: relative;
+          padding-left: 1.4rem; }
+          .work_panel .dashbouard_panel .title_row_bin .bnts_box a span svg {
+            max-height: 1rem;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%); }
+      .work_panel .dashbouard_panel .title_row_bin .bnts_box a:hover {
+        background: #3B9A25; }
+    .work_panel .dashbouard_panel .title_row_bin .filter_box {
+      min-height: 3rem;
+      border-radius: 0.5rem;
+      background: #fff;
+      padding: 0 2.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+      position: relative; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box p {
+        font-size: 1.25rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        line-height: 2.2rem;
+        color: #53565A;
+        display: inline-block;
+        margin-right: 2rem; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select-trigger {
+        position: relative;
+        top: unset;
+        left: unset;
+        bottom: unset;
+        right: unset;
+        padding: 0 2.5rem 0 1.5rem;
+        line-height: 2.2rem;
+        min-width: 12.4rem;
+        border-radius: 0.5rem;
+        display: inline-block;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        background: #F8F8F8; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select-wrapper:last-child .custom-select-trigger {
+        margin-right: 0; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-options {
+        background: #F8F8F8; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select-trigger:after {
+        top: 50%; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select-wrapper {
+        position: relative;
+        top: unset;
+        left: unset;
+        bottom: unset;
+        right: unset;
+        display: inline-block; }
     .work_panel .dashbouard_panel .contenttext {
       width: 100%;
       min-height: 100%;
@@ -2329,6 +2665,7 @@ img {
   padding: 1rem;
   opacity: 0;
   visibility: hidden;
+  z-index: 999999999;
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -ms-transition: all .25s ease;
@@ -2436,3 +2773,131 @@ img {
     fill: #FFFFFF; }
   .wrapper_confirm_white .confirmbox h1 {
     color: #FFFFFF; }
+
+.leftmenu_sm .work_panel .dashbouard_panel_table {
+  max-width: calc(100vw - 6rem); }
+
+@media (min-width: 772px) {
+  .leftmenu_sm .addbin_popup {
+    padding-left: 6rem; } }
+
+.addbin_popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999999999;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+  @media (min-width: 772px) {
+    .addbin_popup {
+      padding-left: 18rem; } }
+  .addbin_popup .box {
+    max-width: 16.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: #43B02A;
+    padding: 2rem; }
+    .addbin_popup .box .icon {
+      max-width: 1.75rem;
+      width: 100%; }
+    .addbin_popup .box h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.6rem;
+      color: #fff;
+      margin-top: 1rem;
+      margin-bottom: 1.6rem; }
+    .addbin_popup .box form input {
+      padding: 0.4rem 1.5rem;
+      border: 0;
+      background: #fff;
+      border-radius: 0.5rem;
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1rem;
+      color: #53565A;
+      margin-bottom: 0.2rem;
+      width: 100%;
+      max-width: 100%; }
+    .addbin_popup .box form .greenbg {
+      background: #72C45F;
+      color: #fff; }
+    .addbin_popup .box form *::-webkit-input-placeholder {
+      /* Edge */
+      color: #53565A; }
+    .addbin_popup .box form *:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #53565A; }
+    .addbin_popup .box form *::placeholder {
+      color: #53565A; }
+    .addbin_popup .box form .greenbg::-webkit-input-placeholder {
+      /* Edge */
+      color: #fff; }
+    .addbin_popup .box form .greenbg:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #fff; }
+    .addbin_popup .box form .greenbg::placeholder {
+      color: #fff; }
+    .addbin_popup .box .btns {
+      margin-top: 1rem; }
+      .addbin_popup .box .btns a {
+        display: inline-block;
+        vertical-align: middle;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1rem;
+        color: #fff;
+        position: relative;
+        padding-left: 1rem;
+        margin-right: 1rem;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+        .addbin_popup .box .btns a svg {
+          top: 50%;
+          transform: translateY(-50%);
+          position: absolute;
+          left: 0;
+          width: 100%; }
+          .addbin_popup .box .btns a svg .fill {
+            fill: #fff;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease; }
+        .addbin_popup .box .btns a .w26 {
+          max-width: 0.625rem; }
+        .addbin_popup .box .btns a .w9 {
+          max-width: 0.9rem; }
+        .addbin_popup .box .btns a .w8 {
+          max-width: 0.8rem; }
+      .addbin_popup .box .btns a:hover {
+        color: #CACAC7; }
+        .addbin_popup .box .btns a:hover svg .fill {
+          fill: #CACAC7; }
+      .addbin_popup .box .btns .check {
+        padding-left: 1.25rem; }
+      .addbin_popup .box .btns .pl {
+        padding-left: 1.25rem; }
+
+.popup_active {
+  visibility: visible;
+  opacity: 1; }

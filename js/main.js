@@ -298,3 +298,16 @@ if ($(window).width() < 772) {
 	var getheightofrightnav = $(".right_nav .right_nav_phone").height();
 	$(".right_nav .dropf .boxes .directions_max_h").css("height", "calc("+getheightofrightnav + "px - 13rem)")
 }
+
+
+// open popup
+$( ".open_popup" ).click(function(e) {
+	e.preventDefault();
+	var classforpopup = "." + $(this).attr("name");
+	$(classforpopup).addClass("popup_active");
+});
+$( ".close_popup" ).click(function(e) {
+	e.preventDefault();
+	$(".popup_active").removeClass("popup_active");
+});
+

@@ -57,6 +57,12 @@
 	.work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont{
 		max-height: calc(100vh - 33.3rem);
 	}
+	.work_panel .dashbouard_panel .title_row_bin .filter_box, .work_panel .dashbouard_panel .title_row_bin .bnts_box{
+		margin-bottom: 0.2rem;
+	}
+	.work_panel .dashbouard_panel .place_table{
+		max-height: calc(100vh - 22.5rem);
+	}
 }
 @media(max-width: 1200px){
 	html,body{
@@ -71,6 +77,9 @@
 	.work_panel .dashbouard_panel .two_separate_area .list_right_side .scrollablecont{
 		overflow: auto;
 		max-height: calc(100vh - 44rem);
+	}
+	.work_panel .dashbouard_panel_table .toolbar_c a{
+		margin-right: 0;
 	}
 	.work_panel .dashbouard_panel .two_separate_area .list_right_side .toolbar_c a{
 		margin-right: 0;
@@ -190,6 +199,9 @@
 	z-index: 999999999999;
 }
 @media(max-width: 772px){
+	.work_panel .dashbouard_panel_table{
+		max-width: 100%;
+	}
 	.daterangepicker.ltr{
 		max-height: calc(100vh - 30rem);
 		overflow: auto;
@@ -627,6 +639,9 @@
 	// html, body{
 	// 	font-size: 11px;
 	// }
+	.work_panel .dashbouard_panel .place_table{
+		max-height: calc(100vh - 26.5rem);
+	}
 	.right_nav .right_nav_phone{
 	    width: 50%;
 	    margin-right: -50%;
