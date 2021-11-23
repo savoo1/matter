@@ -1454,15 +1454,19 @@ img {
         -ms-transition: all .25s ease;
         -o-transition: all .25s ease;
         transition: all .25s ease; }
-        .work_panel .dashbouard_panel .title_row_bin .bnts_box a span {
+        .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg {
           position: relative;
           padding-left: 1.4rem; }
-          .work_panel .dashbouard_panel .title_row_bin .bnts_box a span svg {
+          .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg svg {
             max-height: 1rem;
             position: absolute;
             left: 0;
             top: 50%;
-            transform: translateY(-50%); }
+            transform: translateY(-50%);
+            width: 1.2rem; }
+          .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg .w1 {
+            width: 0.9rem;
+            max-height: 0.9rem; }
       .work_panel .dashbouard_panel .title_row_bin .bnts_box a:hover {
         background: #3B9A25; }
     .work_panel .dashbouard_panel .title_row_bin .filter_box {
