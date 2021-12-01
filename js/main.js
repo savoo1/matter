@@ -274,6 +274,9 @@ $(document).click(function(event) {
 	if (!$(event.target).closest(".username_options").length) {
 		$(".username_options").removeClass("username_options_active");
 	}
+	if (!$(event.target).closest(".dropdownbtn_select_active").length) {
+		$(".dropdownbtn_select_active").removeClass("dropdownbtn_select_active");
+	}
 });
 
 
@@ -309,5 +312,16 @@ $( ".open_popup" ).click(function(e) {
 $( ".close_popup" ).click(function(e) {
 	e.preventDefault();
 	$(".popup_active").removeClass("popup_active");
+});
+
+
+// open dropdown menu on dropdown btns
+$( ".dropdownbtn_select" ).click(function(e) {
+	if($(this).hasClass("dropdownbtn_select_active")){
+		$(this).removeClass("dropdownbtn_select_active")
+	}else{
+		$(".dropdownbtn_select_active").removeClass("dropdownbtn_select_active");
+		$(this).addClass("dropdownbtn_select_active")
+	}
 });
 

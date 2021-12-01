@@ -1,8 +1,4 @@
 @media (max-width: 1550px) {
-  .work_panel .dashbouard_panel .title_row .title {
-    width: calc(45% - 0.1rem); }
-  .work_panel .dashbouard_panel .title_row .period {
-    width: calc(55% - 0.1rem); }
   .work_panel .dashbouard_panel .council_name .left_box .seletbox {
     max-width: calc(32.5% - 0.1rem); }
   .work_panel .dashbouard_panel .two_separate_area .l .row2 .box_list .tit {
@@ -17,22 +13,19 @@
     max-width: 2.5rem; }
   .work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox {
     padding-left: 5rem; }
-  .work_panel .dashbouard_panel .council_name .left_box h1 {
-    font-size: 2.5rem; }
+  .work_panel .dashbouard_panel .title_row .period input {
+    padding-left: 1rem;
+    padding-right: 2rem;
+    background-position: calc(100% - 1rem);
+    margin-right: 0.2rem; }
   .work_panel .dashbouard_panel .two_separate_area .l .row2 .box_list .li_p, .work_panel .dashbouard_panel .two_separate_area .l .row2 .box_list .tit {
     padding: 0 1rem; }
   .work_panel .dashbouard_panel .council_name .seletbox .custom-select-trigger {
     padding-left: 1rem; }
   .work_panel .dashbouard_panel .council_name .seletbox .custom-select-trigger:after {
     right: 0.5rem; }
-  .work_panel .dashbouard_panel .title_row {
-    display: block; }
-    .work_panel .dashbouard_panel .title_row .title {
-      width: 100%;
-      margin-bottom: 0.2rem;
-      position: relative; }
-    .work_panel .dashbouard_panel .title_row .period {
-      width: 100%; }
+  .work_panel .dashbouard_panel .council_name .left_box .dropdownbtn_select {
+    max-width: calc(32% - 0.15rem); }
   .work_panel .dashbouard_panel .contenttext, .work_panel .dashbouard_panel .items_box {
     max-width: calc(100% - 2rem); }
   .work_panel .dashbouard_panel .two_separate_area .l .scrollablecont {
@@ -47,6 +40,34 @@
 @media (max-width: 1200px) {
   html, body {
     font-size: 13px; }
+  .work_panel .dashbouard_panel .title_row_bin .bnts_box .period input {
+    min-width: 13rem; }
+  .work_panel .dashbouard_panel .title_row_bin .bnts_box .period p {
+    padding-right: 0.2rem; }
+  .work_panel .dashbouard_panel_table .title_row {
+    flex-wrap: wrap; }
+    .work_panel .dashbouard_panel_table .title_row .title {
+      width: 100%;
+      max-width: 100%;
+      flex-grow: 1;
+      position: relative;
+      margin-bottom: 0.2rem; }
+    .work_panel .dashbouard_panel_table .title_row .bnts_box {
+      width: 100%;
+      max-width: 330px;
+      flex-grow: 1;
+      margin-left: 0;
+      margin-right: 0; }
+    .work_panel .dashbouard_panel_table .title_row .filter_box {
+      width: calc(100% - 330px - 0.2rem);
+      max-width: calc(100% - 330px - 0.2rem);
+      flex-grow: 1;
+      margin-left: 0;
+      margin-right: 0; }
+  .work_panel .dashbouard_panel .title_row .period {
+    width: calc(50% - 0.1rem); }
+  .work_panel .dashbouard_panel .title_row .title {
+    width: calc(50% - 0.1rem); }
   .work_panel .dashbouard_panel .two_separate_area .l .scrollablecont {
     height: calc(100vh - 38.3rem); }
   .work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont {
@@ -92,6 +113,17 @@
     max-height: unset;
     overflow: unset;
     padding-bottom: 5.3rem; }
+  .work_panel .dashbouard_panel_table .title_row .bnts_box {
+    padding: 0 0.5rem; }
+  .work_panel .dashbouard_panel .title_row_bin .bnts_box .period {
+    max-width: 30rem; }
+  .addprecinct_popup form {
+    min-height: 14rem; }
+  .addprecinct_popup .placeholderwhitearea {
+    width: 20rem; }
+  .addprecinct_popup .box {
+    padding-right: 24rem;
+    max-width: 39.1rem; }
   .work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont {
     max-height: unset; }
   .work_panel .dashbouard_panel .two_separate_area_for_boxestop {
@@ -138,7 +170,23 @@
     top: 4.6rem;
     width: calc(66.67% - 0.1rem); }
   .work_panel .dashbouard_panel .boxes6 .rightb .box {
-    width: calc(50% - 0.15rem); } }
+    width: calc(50% - 0.15rem); }
+  .work_panel .dashbouard_panel .title_row {
+    display: block; }
+    .work_panel .dashbouard_panel .title_row .title {
+      width: 100%;
+      margin-bottom: 0.2rem;
+      position: relative; }
+    .work_panel .dashbouard_panel .title_row .period {
+      width: 100%; }
+  .work_panel .dashbouard_panel_table .title_row {
+    display: block; }
+    .work_panel .dashbouard_panel_table .title_row .bnts_box {
+      width: 100%;
+      max-width: 100%; }
+    .work_panel .dashbouard_panel_table .title_row .filter_box {
+      width: 100%;
+      max-width: 100%; } }
 
 .daterangepicker.ltr {
   z-index: 999999999999; }
@@ -391,9 +439,29 @@
     right: 1rem; }
   .top_nav .username_options .clickable .placeforimg {
     width: 2rem;
-    height: 2rem; } }
+    height: 2rem; }
+  .work_panel .dashbouard_panel .council_name .left_box .dropdownbtn_select {
+    max-width: 100%;
+    top: 6rem;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0.5rem; }
+    .work_panel .dashbouard_panel .council_name .left_box .dropdownbtn_select .title {
+      padding-top: 0.5rem; }
+    .work_panel .dashbouard_panel .council_name .left_box .dropdownbtn_select .title:after {
+      top: 50%; }
+  .work_panel .dashbouard_panel .council_name_select_box .left_box .name_c {
+    padding-bottom: 2rem; }
+  .work_panel .dashbouard_panel .council_name_select_box .left_box svg {
+    top: calc(50% - 1rem); } }
 
 @media (max-width: 500px) {
+  .addprecinct_popup .placeholderwhitearea {
+    width: 11rem; }
+  .addprecinct_popup .box {
+    padding-right: 14rem;
+    max-width: 30rem; }
+  .addprecinct_popup form {
+    min-height: unset; }
   .work_panel .dashbouard_panel .two_separate_area_for_boxestop {
     margin-top: 0.2rem; }
   .work_panel .dashbouard_panel .two_separate_area .l .row1 {
@@ -433,10 +501,6 @@
       border-bottom-left-radius: 0.5rem; }
     .work_panel .dashbouard_panel .council_name .left_box .seletbox .custom-select-trigger:after {
       top: 50%; }
-  .work_panel .dashbouard_panel .council_name_select_box .left_box .name_c {
-    padding-bottom: 2rem; }
-  .work_panel .dashbouard_panel .council_name_select_box .left_box svg {
-    top: calc(50% - 1rem); }
   .work_panel .dashbouard_panel .two_separate_area .l {
     min-height: unset; }
   .work_panel .dashbouard_panel .two_separate_area .l .scrollablecont {
@@ -483,7 +547,9 @@
 
 @media (max-width: 420px) {
   html, body {
-    font-size: 11.6px; } }
+    font-size: 11.6px; }
+  .work_panel .dashbouard_panel .council_name .left_box h1 {
+    font-size: 2.7rem; } }
 
 @media (max-width: 390px) {
   html, body {

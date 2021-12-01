@@ -5,7 +5,7 @@
 
 html, body {
   overflow: hidden;
-  font-size: 13px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -808,7 +808,8 @@ img {
         .work_panel .dashbouard_panel .place_table table th:first-child {
           padding-left: 2rem; }
         .work_panel .dashbouard_panel .place_table table td:first-child {
-          padding-left: 2rem; }
+          padding-left: 2rem;
+          width: 4rem; }
         .work_panel .dashbouard_panel .place_table table tr {
           background: #fff; }
         .work_panel .dashbouard_panel .place_table table tr:first-child {
@@ -827,6 +828,20 @@ img {
           border-top: 0.2rem #F8F8F8 solid; }
           .work_panel .dashbouard_panel .place_table table td .lefticon {
             width: 1rem; }
+          .work_panel .dashbouard_panel .place_table table td .h1 {
+            max-height: 1rem; }
+          .work_panel .dashbouard_panel .place_table table td .h0625 {
+            max-height: 0.625rem;
+            height: 0.625rem;
+            width: 100%; }
+          .work_panel .dashbouard_panel .place_table table td .h1081 {
+            height: 1.081rem;
+            width: unset !important; }
+          .work_panel .dashbouard_panel .place_table table td .yellowficon {
+            height: 1.081rem;
+            width: 1.25rem !important;
+            position: absolute;
+            margin-left: -0.12rem; }
         .work_panel .dashbouard_panel .place_table table td:nth-child(6) {
           padding-right: 2rem; }
         .work_panel .dashbouard_panel .place_table table td:nth-child(9) {
@@ -848,8 +863,20 @@ img {
             -ms-transition: all .25s ease;
             -o-transition: all .25s ease;
             transition: all .25s ease; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a svg .redfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a svg .redfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a svg .redfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a svg .redfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a svg .redfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a svg .redfill {
+            fill: #F2050D; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a svg .yellowfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a svg .yellowfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a svg .yellowfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a svg .yellowfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a svg .yellowfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a svg .yellowfill {
+            fill: #FDB514; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a svg .greenfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a svg .greenfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a svg .greenfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a svg .greenfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a svg .greenfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a svg .greenfill {
+            fill: #3EC856; }
           .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a:hover svg .fill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a:hover svg .fill {
-            fill: #72C45F; }
+            fill: #0a0b0b; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a:hover svg .redfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a:hover svg .redfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a:hover svg .redfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a:hover svg .redfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a:hover svg .redfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a:hover svg .redfill {
+            fill: #b6040a; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a:hover svg .yellowfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a:hover svg .yellowfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a:hover svg .yellowfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a:hover svg .yellowfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a:hover svg .yellowfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a:hover svg .yellowfill {
+            fill: #be880f; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(1) a:hover svg .greenfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) a:hover svg .greenfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(2) a:hover svg .greenfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(2) a:hover svg .greenfill, .work_panel .dashbouard_panel .place_table table td:nth-last-child(3) a:hover svg .greenfill, .work_panel .dashbouard_panel .place_table table th:nth-last-child(3) a:hover svg .greenfill {
+            fill: #35ac4a; }
         .work_panel .dashbouard_panel .place_table table .disabled_c a {
           pointer-events: none;
           cursor: default; }
@@ -860,6 +887,11 @@ img {
         .work_panel .dashbouard_panel .place_table table td:nth-last-child(1), .work_panel .dashbouard_panel .place_table table th:nth-last-child(1) {
           padding-right: 2rem;
           width: 4rem; }
+        .work_panel .dashbouard_panel .place_table table td:nth-last-child(3).doubleicons {
+          display: flex;
+          width: 4rem !important; }
+          .work_panel .dashbouard_panel .place_table table td:nth-last-child(3).doubleicons a {
+            display: inline-block; }
         .work_panel .dashbouard_panel .place_table table .greenc {
           color: #3EC856; }
         .work_panel .dashbouard_panel .place_table table .redc {
@@ -881,10 +913,24 @@ img {
           min-height: 3rem; }
         .work_panel .dashbouard_panel .place_table table .disabled_c {
           color: #CACAC7; }
+        .work_panel .dashbouard_panel .place_table table .listinrow {
+          padding: 0;
+          margin: 0; }
+          .work_panel .dashbouard_panel .place_table table .listinrow li {
+            display: inline-block;
+            background: #F8F8F8;
+            border-radius: 0.5rem;
+            margin-right: 0.2rem;
+            padding: 0rem 0.6rem;
+            line-height: 2.2rem; }
       .work_panel .dashbouard_panel .place_table .bin_type_table td:nth-last-child(4) {
         width: 100%; }
       .work_panel .dashbouard_panel .place_table .bin_type_table td:nth-child(2) {
         padding-right: 2rem; }
+      .work_panel .dashbouard_panel .place_table .twooptions td:nth-last-child(3), .work_panel .dashbouard_panel .place_table .twooptions th:nth-last-child(3) {
+        width: unset !important;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem; }
     .work_panel .dashbouard_panel .two_separate_area {
       position: relative;
       display: flex;
@@ -1287,6 +1333,9 @@ img {
           border-bottom-right-radius: 0.5rem; }
           .work_panel .dashbouard_panel .council_name .left_box .seletbox .custom-select-trigger {
             border-top-right-radius: 0.5rem; }
+        .work_panel .dashbouard_panel .council_name .left_box .dropdownbtn_select {
+          background: #E5E5E3;
+          max-width: calc(25% - 0.15rem); }
       .work_panel .dashbouard_panel .council_name .right_box {
         min-height: 8rem;
         border-radius: 0.5rem;
@@ -1437,6 +1486,13 @@ img {
       align-items: center;
       justify-content: center;
       white-space: nowrap; }
+      .work_panel .dashbouard_panel .title_row_bin .bnts_box .period {
+        width: 100%; }
+        .work_panel .dashbouard_panel .title_row_bin .bnts_box .period p {
+          padding-left: 0; }
+        .work_panel .dashbouard_panel .title_row_bin .bnts_box .period input {
+          margin-right: 0;
+          min-width: 16rem; }
       .work_panel .dashbouard_panel .title_row_bin .bnts_box a {
         font-size: 1rem;
         font-family: 'Oswald', sans-serif;
@@ -1467,6 +1523,10 @@ img {
           .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg .w1 {
             width: 0.9rem;
             max-height: 0.9rem; }
+      .work_panel .dashbouard_panel .title_row_bin .bnts_box .disabled_a {
+        background: #EAEAEA;
+        color: #53565A;
+        pointer-events: none; }
       .work_panel .dashbouard_panel .title_row_bin .bnts_box a:hover {
         background: #3B9A25; }
     .work_panel .dashbouard_panel .title_row_bin .filter_box {
@@ -1501,12 +1561,21 @@ img {
         margin-left: 0.1rem;
         margin-right: 0.1rem;
         background: #F8F8F8; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-option {
+        padding-left: 1.5rem; }
       .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select-wrapper:last-child .custom-select-trigger {
         margin-right: 0; }
       .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-options {
-        background: #F8F8F8; }
+        background: #F8F8F8;
+        top: -0.2rem;
+        transform: unset; }
       .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select-trigger:after {
-        top: 50%; }
+        top: calc(50% - 0rem);
+        z-index: 99999; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select.opened .custom-options {
+        overflow: auto; }
+      .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select.opened .custom-select-trigger:after {
+        top: calc(50% - 0.3rem); }
       .work_panel .dashbouard_panel .title_row_bin .filter_box .custom-select-wrapper {
         position: relative;
         top: unset;
@@ -1837,6 +1906,8 @@ img {
             fill: #fff; }
         .leftpanel .navbar li a .icon .h10 {
           height: 1rem; }
+        .leftpanel .navbar li a .icon .h625 {
+          height: 0.625rem; }
         .leftpanel .navbar li a .icon .dashboard {
           height: 1.125rem; }
       .leftpanel .navbar li a .arrow {
@@ -2782,10 +2853,10 @@ img {
   max-width: calc(100vw - 6rem); }
 
 @media (min-width: 772px) {
-  .leftmenu_sm .addbin_popup {
+  .leftmenu_sm .popup_green_def {
     padding-left: 6rem; } }
 
-.addbin_popup {
+.popup_green_def {
   position: fixed;
   left: 0;
   right: 0;
@@ -2804,18 +2875,21 @@ img {
   -o-transition: all .25s ease;
   transition: all .25s ease; }
   @media (min-width: 772px) {
-    .addbin_popup {
+    .popup_green_def {
       padding-left: 18rem; } }
-  .addbin_popup .box {
+  .popup_green_def .box {
     max-width: 16.5rem;
     width: 100%;
     border-radius: 0.5rem;
     background: #43B02A;
     padding: 2rem; }
-    .addbin_popup .box .icon {
+    .popup_green_def .box .icon {
       max-width: 1.75rem;
       width: 100%; }
-    .addbin_popup .box h1 {
+    .popup_green_def .box .icon2 {
+      max-width: 2.25rem;
+      width: 100%; }
+    .popup_green_def .box h1 {
       font-family: 'Oswald', sans-serif;
       font-size: 1.5rem;
       font-weight: 700;
@@ -2823,10 +2897,10 @@ img {
       color: #fff;
       margin-top: 1rem;
       margin-bottom: 1.6rem; }
-    .addbin_popup .box form input {
-      padding: 0.4rem 1.5rem;
+    .popup_green_def .box form input {
+      padding: 0.4rem 1rem 0.4rem 1.5rem;
       border: 0;
-      background: #fff;
+      background: #F8F8F8;
       border-radius: 0.5rem;
       font-family: 'Oswald', sans-serif;
       font-size: 1rem;
@@ -2836,28 +2910,63 @@ img {
       margin-bottom: 0.2rem;
       width: 100%;
       max-width: 100%; }
-    .addbin_popup .box form .greenbg {
+    .popup_green_def .box form .seletbox {
+      position: relative;
+      width: 100%;
+      padding-bottom: 0.2rem; }
+      .popup_green_def .box form .seletbox .custom-select-trigger {
+        padding: 0.65rem 1.5rem !important;
+        position: relative;
+        width: 100%;
+        border-radius: 0.5rem;
+        background: #F8F8F8; }
+      .popup_green_def .box form .seletbox .custom-select-wrapper {
+        position: unset; }
+      .popup_green_def .box form .seletbox .custom-options {
+        background: #F8F8F8;
+        top: -0.2rem;
+        transform: unset; }
+      .popup_green_def .box form .seletbox .custom-option {
+        padding-left: 1.5rem;
+        z-index: 99999; }
+      .popup_green_def .box form .seletbox .custom-select-trigger:after {
+        top: calc(50% - 0rem);
+        z-index: 999999; }
+      .popup_green_def .box form .seletbox .custom-select.opened .custom-select-trigger:after {
+        top: calc(50% - 0.3rem); }
+      .popup_green_def .box form .seletbox .custom-select.opened {
+        position: relative;
+        z-index: 999999999999; }
+    .popup_green_def .box form .greenbg {
       background: #72C45F;
       color: #fff; }
-    .addbin_popup .box form *::-webkit-input-placeholder {
+    .popup_green_def .box form *::-webkit-input-placeholder {
       /* Edge */
       color: #53565A; }
-    .addbin_popup .box form *:-ms-input-placeholder {
+    .popup_green_def .box form *:-ms-input-placeholder {
       /* Internet Explorer 10-11 */
       color: #53565A; }
-    .addbin_popup .box form *::placeholder {
+    .popup_green_def .box form *::placeholder {
       color: #53565A; }
-    .addbin_popup .box form .greenbg::-webkit-input-placeholder {
+    .popup_green_def .box form .optional::-webkit-input-placeholder {
+      /* Edge */
+      color: #A9ABAD; }
+    .popup_green_def .box form .optional:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #A9ABAD; }
+    .popup_green_def .box form .optional::placeholder {
+      color: #A9ABAD; }
+    .popup_green_def .box form .greenbg::-webkit-input-placeholder {
       /* Edge */
       color: #fff; }
-    .addbin_popup .box form .greenbg:-ms-input-placeholder {
+    .popup_green_def .box form .greenbg:-ms-input-placeholder {
       /* Internet Explorer 10-11 */
       color: #fff; }
-    .addbin_popup .box form .greenbg::placeholder {
+    .popup_green_def .box form .greenbg::placeholder {
       color: #fff; }
-    .addbin_popup .box .btns {
+    .popup_green_def .box .btns {
       margin-top: 1rem; }
-      .addbin_popup .box .btns a {
+      .popup_green_def .box .btns a {
         display: inline-block;
         vertical-align: middle;
         text-decoration: none;
@@ -2874,34 +2983,142 @@ img {
         -ms-transition: all .25s ease;
         -o-transition: all .25s ease;
         transition: all .25s ease; }
-        .addbin_popup .box .btns a svg {
+        .popup_green_def .box .btns a svg {
           top: 50%;
           transform: translateY(-50%);
           position: absolute;
           left: 0;
           width: 100%; }
-          .addbin_popup .box .btns a svg .fill {
+          .popup_green_def .box .btns a svg .fill {
             fill: #fff;
             -webkit-transition: all .25s ease;
             -moz-transition: all .25s ease;
             -ms-transition: all .25s ease;
             -o-transition: all .25s ease;
             transition: all .25s ease; }
-        .addbin_popup .box .btns a .w26 {
+        .popup_green_def .box .btns a .w26 {
           max-width: 0.625rem; }
-        .addbin_popup .box .btns a .w9 {
+        .popup_green_def .box .btns a .w9 {
           max-width: 0.9rem; }
-        .addbin_popup .box .btns a .w8 {
+        .popup_green_def .box .btns a .w8 {
           max-width: 0.8rem; }
-      .addbin_popup .box .btns a:hover {
+      .popup_green_def .box .btns a:hover {
         color: #CACAC7; }
-        .addbin_popup .box .btns a:hover svg .fill {
+        .popup_green_def .box .btns a:hover svg .fill {
           fill: #CACAC7; }
-      .addbin_popup .box .btns .check {
+      .popup_green_def .box .btns .check {
         padding-left: 1.25rem; }
-      .addbin_popup .box .btns .pl {
+      .popup_green_def .box .btns .pl {
         padding-left: 1.25rem; }
+
+.addprecinct_popup .box {
+  padding-right: 31.6rem;
+  max-width: 46.1rem;
+  position: relative; }
+
+.addprecinct_popup form {
+  min-height: 19rem; }
+
+.addprecinct_popup .placeholderwhitearea {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  bottom: 2rem;
+  width: 28.2rem;
+  background: #F8F8F8;
+  border-radius: 0.5rem; }
 
 .popup_active {
   visibility: visible;
   opacity: 1; }
+
+.dropdownbtn_select {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  border-top-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 999; }
+  .dropdownbtn_select .title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #53565A;
+    line-height: 1rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    border-bottom-right-radius: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 6.5rem;
+    cursor: pointer; }
+  .dropdownbtn_select .title:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0.65rem;
+    height: 0.35rem;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6.328 3.399'%3E%3Cpath id='Path_373' data-name='Path 373' d='M9.774,3.5l-2.8,2.682a.406.406,0,0,1-.256.111.372.372,0,0,1-.243-.1L3.663,3.5A.351.351,0,1,1,4.149,3L6.719,5.459,9.288,3a.351.351,0,0,1,.486.505Z' transform='translate(-3.555 -2.898)' fill='%2353565a'/%3E%3C/svg%3E%0A") center center/0.633rem;
+    background-repeat: no-repeat;
+    right: 1.5rem;
+    top: calc(50% + 3rem);
+    transform: translateY(-50%);
+    z-index: 999;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .dropdownbtn_select .fordropdown {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    overflow: hidden;
+    position: absolute;
+    top: calc(100% - 2rem);
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .dropdownbtn_select .dropdownlist {
+    background: #E5E5E3;
+    max-height: 10.4rem;
+    overflow: auto; }
+    .dropdownbtn_select .dropdownlist a {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      color: #53565A;
+      padding: 0.3rem 0.5rem 0.3rem 2rem;
+      display: block;
+      cursor: pointer;
+      font-weight: 300;
+      text-decoration: none;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease; }
+    .dropdownbtn_select .dropdownlist a:hover {
+      background: #E8F5E4; }
+
+.dropdownbtn_select_active .fordropdown {
+  max-height: 10.4rem;
+  opacity: 1; }
+
+.dropdownbtn_select_active .title:after {
+  transform: rotate(-180deg);
+  top: calc(50% + 2.8rem); }

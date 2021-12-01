@@ -20,6 +20,9 @@ $(".custom-option:first-of-type").hover(function() {
   $(this).parents(".custom-options").removeClass("option-hover");
 });
 $(".custom-select-trigger").on("click", function() {
+  if(!$(this).parent().hasClass("opened")){
+    $(".custom-select").removeClass("opened");
+  }
   $('html').one('click',function() {
     $(".custom-select").removeClass("opened");
   });
