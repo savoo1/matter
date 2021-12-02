@@ -148,7 +148,7 @@ $( ".right_nav .title" ).click(function(e) {
 	}
 });
 
-$( ".top_nav .searchbar_menu svg" ).click(function(e) {
+$( ".top_nav .searchbar_menu svg, .top_nav .searchbar_menu .svg_icon" ).click(function(e) {
 	e.preventDefault();
 	if($(this).parent().hasClass("active_search")){
 		$(this).parent().removeClass("active_search");

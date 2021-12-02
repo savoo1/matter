@@ -126,7 +126,7 @@
 	.work_panel .dashbouard_panel .two_separate_area .list_right_side .box_list .li_p .rs{
 		min-width: 7rem;
 	}
-	.top_nav .searchbar_menu, .leftmenu_sm .leftpanel .logo_pl .logo, .right_nav .title h1, .top_nav .username_options .clickable, .top_nav .notification_c .notification_c_icon svg{
+	.top_nav .searchbar_menu, .leftmenu_sm .leftpanel .logo_pl .logo, .right_nav .title h1, .top_nav .username_options .clickable, .top_nav .notification_c .notification_c_icon svg, .top_nav .notification_c .notification_c_icon .svg_icon{
 		top: 50%;
 	}
 	.leftpanel .logo_pl .logo_smaller{
@@ -589,6 +589,9 @@
 	.top_nav .notification_c .notification_c_icon svg{
 		left: 1.2rem;
 	}
+	.top_nav .notification_c .notification_c_icon .svg_icon{
+		left: 1.2rem;
+	}
 
 	.top_nav .searchbar_menu{
 		left: 5rem;
@@ -798,13 +801,13 @@
 	html, body{
 		font-size: 11px;
 	}
-	.top_nav .notification_c .notification_c_icon svg{
+	.top_nav .notification_c .notification_c_icon .svg_icon, .top_nav .notification_c .notification_c_icon svg{
 		left: 1rem;
 	}
 	.top_nav .username_options .clickable{
 	    right: 0.7rem;
 	}
-	.top_nav .searchbar_menu svg{
+	.top_nav .searchbar_menu svg,.top_nav .searchbar_menu .svg_icon{
 		left: 3.5rem;
 	}
 
@@ -813,7 +816,7 @@
 	html, body{
 		font-size: 10.3px;
 	}
-	.top_nav .searchbar_menu svg{
+	.top_nav .searchbar_menu svg,.top_nav .searchbar_menu .svg_icon{
 		left: 3.6rem;
 	}
 	.right_nav .title h1{
