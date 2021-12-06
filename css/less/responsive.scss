@@ -16,10 +16,10 @@
 	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead{
 		padding-left: 5rem;
 	}
-	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg{
+	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg, 	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead .svg_icon{
 		left: 1rem;
 	}
-	.work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox svg{
+	.work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox svg, .work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox .svg_icon{
 		max-width: 2.5rem;
 	}
 	.work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox{
@@ -60,6 +60,9 @@
 	}
 	.work_panel .dashbouard_panel .place_table{
 		max-height: calc(100vh - 22.5rem);
+	}
+	.dropdownbtn_select .title:after{
+		right: 1rem;
 	}
 }
 @media(max-width: 1200px){
@@ -135,7 +138,7 @@
 	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead{
 		padding-left: 4rem;
 	}
-	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg{
+	.work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg, .work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead .svg_icon{
 		max-width: 2.5rem;
 	}
 	.work_panel .dashbouard_panel .council_name{
@@ -360,11 +363,12 @@
 	.right_nav .title h1{
 		left: 0rem;
 		right: 0rem;
-		svg{
+		.svg_icon, svg{
 			left: 0;
 			right: 0;
 			margin: auto;
 		}
+
 	}
 	.right_nav{
 		max-width: 6rem;
@@ -447,7 +451,7 @@
 		.right_nav .title h1{
 			left: 2rem;
 			right: 0;
-			svg{
+			.svg_icon, svg{
 				left: 0rem;
 				right: unset;
 				margin: auto;
@@ -471,7 +475,7 @@
 			display: block;
 		}
 	}
-	.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .dropf .box .tit svg, .right_nav .dropf .box_normal .tit svg{
+	.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .optimalroute .svg_icon, .rightmenu_sm .right_nav .dropf .box .tit svg, .rightmenu_sm .right_nav .dropf .box .tit .svg_icon, .right_nav .dropf .box_normal .tit svg, .right_nav .dropf .box_normal .tit .svg_icon{
 		right: unset;
 		left: 1.8rem;
 	}
@@ -513,7 +517,7 @@
 	.rightmenu_sm .right_nav .dropf .clickable{
 		padding-left: 4.3rem;
 	}
-	.rightmenu_sm .right_nav .dropf .clickable svg{
+	.rightmenu_sm .right_nav .dropf .clickable svg, .rightmenu_sm .right_nav .dropf .clickable .svg_icon{
 		left: unset;
 		right: 2rem;
 	}
@@ -586,7 +590,7 @@
 		width: 100%;
 		max-width: 100%;
 	}
-	.top_nav .notification_c .notification_c_icon svg{
+	.top_nav .notification_c .notification_c_icon .svg_icon, .top_nav .notification_c .notification_c_icon svg{
 		left: 1.2rem;
 	}
 	.top_nav .notification_c .notification_c_icon .svg_icon{
@@ -650,7 +654,7 @@
 	.work_panel .dashbouard_panel .council_name_select_box .left_box .name_c{
 		padding-bottom: 2rem;
 	}
-	.work_panel .dashbouard_panel .council_name_select_box .left_box svg{
+	.work_panel .dashbouard_panel .council_name_select_box .left_box .svg_icon, .work_panel .dashbouard_panel .council_name_select_box .left_box svg{
 		top: calc(50% - 1rem);
 	}
 }
@@ -807,7 +811,7 @@
 	.top_nav .username_options .clickable{
 	    right: 0.7rem;
 	}
-	.top_nav .searchbar_menu svg,.top_nav .searchbar_menu .svg_icon{
+	.top_nav .searchbar_menu .svg_icon,.top_nav .searchbar_menu svg,.top_nav .searchbar_menu .svg_icon{
 		left: 3.5rem;
 	}
 
@@ -816,13 +820,13 @@
 	html, body{
 		font-size: 10.3px;
 	}
-	.top_nav .searchbar_menu svg,.top_nav .searchbar_menu .svg_icon{
+	.top_nav .searchbar_menu .svg_icon,.top_nav .searchbar_menu .svg_icon{
 		left: 3.6rem;
 	}
 	.right_nav .title h1{
 		font-size: 1.4rem;
 	}
-	.right_nav .dropf .box .multiselect .arrowright, .rightmenu_sm .right_nav .dropf .clickable svg{
+	.right_nav .dropf .box .multiselect .arrowright, .rightmenu_sm .right_nav .dropf .clickable svg, .rightmenu_sm .right_nav .dropf .clickable .svg_icon{
 		right: 0.5rem;
 	}
 

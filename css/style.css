@@ -159,6 +159,14 @@ img {
         max-width: 1.5rem; }
         .right_nav .title h1 svg path {
           fill: #fff; }
+      .right_nav .title h1 .svg_icon {
+        left: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 1.5rem;
+        min-height: 2rem;
+        width: 100%; }
   .right_nav a {
     text-decoration: none; }
   .right_nav .optimalroute {
@@ -187,6 +195,17 @@ img {
       transform: translateY(-50%);
       max-width: 1.5rem; }
       .right_nav .optimalroute svg path {
+        fill: #fff; }
+    .right_nav .optimalroute .svg_icon {
+      position: absolute;
+      left: 1.8rem;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      max-width: 1.5rem;
+      width: 100%;
+      min-height: 2rem; }
+      .right_nav .optimalroute .svg_icon path {
         fill: #fff; }
     .right_nav .optimalroute h2 {
       font-family: 'Oswald', sans-serif;
@@ -245,6 +264,20 @@ img {
         transition: all .25s ease; }
         .right_nav .dropf .clickable svg path {
           fill: #fff; }
+      .right_nav .dropf .clickable .svg_icon {
+        position: absolute;
+        right: 2rem;
+        width: 0.631rem;
+        height: 0.631rem;
+        top: calc(50% + 0.2rem);
+        transform: translateY(-50%) rotate(0);
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+        .right_nav .dropf .clickable .svg_icon path {
+          fill: #fff; }
     .right_nav .dropf a {
       text-decoration: none; }
     .right_nav .dropf .boxes {
@@ -286,14 +319,16 @@ img {
         padding-left: 1.5rem;
         padding-top: 0.6rem;
         padding-bottom: 0.6rem; }
-      .right_nav .dropf .total_optimal svg {
+      .right_nav .dropf .total_optimal svg, .right_nav .dropf .total_optimal .svg_icon {
         position: absolute;
         left: 1.8rem;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        max-width: 1.5rem; }
-        .right_nav .dropf .total_optimal svg path {
+        max-width: 1.5rem;
+        width: 100%;
+        min-height: 1.5rem; }
+        .right_nav .dropf .total_optimal svg path, .right_nav .dropf .total_optimal .svg_icon path {
           fill: #fff; }
       .right_nav .dropf .total_optimal h2 {
         font-family: 'Oswald', sans-serif;
@@ -379,10 +414,11 @@ img {
           top: 0;
           bottom: 0; }
         .right_nav .dropf .box .multiselect .arrowright {
-          width: 1rem;
+          width: 0.631rem;
+          height: 0.631rem;
           position: absolute;
           right: 1.8rem;
-          top: 0.4rem;
+          top: 0.6rem;
           padding: 0 0.15rem;
           padding-top: 0.5rem;
           padding-bottom: 0.5rem;
@@ -427,14 +463,16 @@ img {
         padding-top: 0.6rem;
         padding-bottom: 0.6rem;
         overflow: hidden; }
-        .right_nav .dropf .box .tit svg {
+        .right_nav .dropf .box .tit .svg_icon, .right_nav .dropf .box .tit svg {
           position: absolute;
           left: 1.8rem;
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
-          max-width: 1.5rem; }
-          .right_nav .dropf .box .tit svg path {
+          max-width: 1.5rem;
+          width: 100%;
+          min-height: 2rem; }
+          .right_nav .dropf .box .tit .svg_icon path, .right_nav .dropf .box .tit svg path {
             fill: #fff; }
         .right_nav .dropf .box .tit h2 {
           font-family: 'Oswald', sans-serif;
@@ -609,11 +647,11 @@ img {
       background: #6CAAE6; }
     .right_nav .dropf .active_finished, .right_nav .dropf .active_finished:hover {
       background: #2C6BA7; }
-  .right_nav .dropf_active .clickable svg {
-    transform: rotate(0deg);
-    margin-top: -0.2rem; }
-  .right_nav .dropf_active .clickable_back svg {
-    transform: translateY(-50%) rotate(180deg);
+  .right_nav .dropf_active .clickable svg, .right_nav .dropf_active .clickable .svg_icon {
+    transform: rotate(180deg);
+    margin-top: -0.3rem; }
+  .right_nav .dropf_active .clickable_back svg, .right_nav .dropf_active .clickable_back .svg_icon {
+    transform: translateY(-50%) rotate(0);
     margin-top: 0rem; }
   .right_nav .dropf_active .boxes {
     max-height: 100%; }
@@ -772,8 +810,13 @@ img {
       max-height: calc(100vh - 16rem);
       overflow: auto;
       max-width: 100%; }
-      .work_panel .dashbouard_panel .place_table svg {
-        height: 1rem; }
+      .work_panel .dashbouard_panel .place_table .svg_icon, .work_panel .dashbouard_panel .place_table svg {
+        height: 1rem;
+        max-width: 2rem;
+        width: 100%; }
+      .work_panel .dashbouard_panel .place_table .al_left {
+        background-position: left center;
+        background-size: auto 100%; }
       .work_panel .dashbouard_panel .place_table .h1081 {
         height: 1.081rem; }
       .work_panel .dashbouard_panel .place_table .h625 {
@@ -809,7 +852,8 @@ img {
           padding-left: 2rem; }
         .work_panel .dashbouard_panel .place_table table td:first-child {
           padding-left: 2rem;
-          width: 4rem; }
+          width: 4rem;
+          position: relative; }
         .work_panel .dashbouard_panel .place_table table tr {
           background: #fff; }
         .work_panel .dashbouard_panel .place_table table tr:first-child {
@@ -955,8 +999,10 @@ img {
             display: flex;
             align-items: center;
             justify-content: left; }
-            .work_panel .dashbouard_panel .two_separate_area .l .row1 .box svg {
+            .work_panel .dashbouard_panel .two_separate_area .l .row1 .box .svg_icon, .work_panel .dashbouard_panel .two_separate_area .l .row1 .box svg {
               max-width: 2rem;
+              width: 100%;
+              min-height: 2rem;
               position: absolute;
               left: 1.5rem;
               top: 50%;
@@ -1027,8 +1073,10 @@ img {
               align-items: center;
               justify-content: left;
               margin-bottom: 0.2rem; }
-              .work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox svg {
+              .work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox .svg_icon, .work_panel .dashbouard_panel .two_separate_area .l .row2 .box .totalbox svg {
                 max-width: 3.5rem;
+                width: 100%;
+                min-height: 4rem;
                 position: absolute;
                 left: 1.5rem;
                 top: 50%;
@@ -1189,8 +1237,10 @@ img {
             align-items: center;
             justify-content: left;
             padding-right: 0.2rem; }
-            .work_panel .dashbouard_panel .two_separate_area .list_right_side .rightb .box svg {
+            .work_panel .dashbouard_panel .two_separate_area .list_right_side .rightb .box .svg_icon, .work_panel .dashbouard_panel .two_separate_area .list_right_side .rightb .box svg {
               max-width: 2rem;
+              min-height: 2rem;
+              width: 100%;
               position: absolute;
               left: 1.5rem;
               top: 50%;
@@ -1256,8 +1306,10 @@ img {
         align-items: center;
         justify-content: left;
         padding-right: 0.2rem; }
-        .work_panel .dashbouard_panel .boxes6 .box svg {
+        .work_panel .dashbouard_panel .boxes6 .box .svg_icon, .work_panel .dashbouard_panel .boxes6 .box svg {
           max-width: 2rem;
+          width: 100%;
+          min-height: 2rem;
           position: absolute;
           left: 1.5rem;
           top: 50%;
@@ -1300,8 +1352,10 @@ img {
         padding-left: 7.7rem;
         position: relative;
         z-index: 9999999; }
-        .work_panel .dashbouard_panel .council_name .left_box svg {
+        .work_panel .dashbouard_panel .council_name .left_box .svg_icon, .work_panel .dashbouard_panel .council_name .left_box svg {
           max-width: 4rem;
+          width: 100%;
+          min-height: 4rem;
           position: absolute;
           left: 1.8rem;
           top: 50%;
@@ -1369,12 +1423,14 @@ img {
             position: relative;
             border-radius: 0.5rem;
             padding-bottom: 0.5rem; }
-            .work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg {
+            .work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead .svg_icon, .work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead svg {
               position: absolute;
               left: 2rem;
               top: calc(50% - 0rem);
               transform: translateY(-50%);
-              max-width: 2.97rem; }
+              max-width: 2.97rem;
+              width: 100%;
+              min-height: 4rem; }
             .work_panel .dashbouard_panel .council_name .right_box .box_s .contentahead h2 {
               font-family: 'Oswald', sans-serif;
               font-size: 0.8rem;
@@ -1428,12 +1484,14 @@ img {
           padding-left: 3.8rem; }
           .work_panel .dashbouard_panel .title_row .title h1 span {
             margin-right: 0.2rem; }
-          .work_panel .dashbouard_panel .title_row .title h1 svg {
+          .work_panel .dashbouard_panel .title_row .title h1 .svg_icon, .work_panel .dashbouard_panel .title_row .title h1 svg {
             max-width: 1.25rem;
             position: absolute;
             left: 2rem;
             top: 50%;
-            transform: translateY(-50%); }
+            transform: translateY(-50%);
+            height: 2rem;
+            width: 100%; }
           .work_panel .dashbouard_panel .title_row .title h1 a {
             color: #989895;
             text-decoration: none;
@@ -1471,7 +1529,7 @@ img {
           margin-right: 2rem;
           margin-top: 0.4rem;
           padding-left: 2rem;
-          padding-right: 4rem;
+          padding-right: 3rem;
           background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.328' height='3.399' viewBox='0 0 6.328 3.399'%3E%3Cpath id='Path_372' data-name='Path 372' d='M9.774,3.5l-2.8,2.682a.406.406,0,0,1-.256.111.372.372,0,0,1-.243-.1L3.663,3.5A.351.351,0,1,1,4.149,3L6.719,5.459,9.288,3a.351.351,0,0,1,.486.505Z' transform='translate(-3.555 -2.898)' fill='%2353565a'/%3E%3C/svg%3E%0A") no-repeat calc(100% - 2rem) center/0.65rem, linear-gradient(#F8F8F8 100%, #F8F8F8 100%); }
     .work_panel .dashbouard_panel .title_row_bin .title {
       width: 100%; }
@@ -1499,7 +1557,7 @@ img {
         font-weight: 300;
         line-height: 2.2rem;
         color: #fff;
-        padding: 0 1.7rem;
+        padding: 0 1.5rem;
         background: #43B02A;
         border-radius: 0.5rem;
         text-decoration: none;
@@ -1512,9 +1570,10 @@ img {
         transition: all .25s ease; }
         .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg {
           position: relative;
-          padding-left: 1.4rem; }
-          .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg svg {
+          padding-left: 1.7rem; }
+          .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg .svg_icon, .work_panel .dashbouard_panel .title_row_bin .bnts_box a .forbtnimg svg {
             max-height: 1rem;
+            min-height: 1rem;
             position: absolute;
             left: 0;
             top: 50%;
@@ -2279,7 +2338,7 @@ img {
 .rightmenu_sm .right_nav .title h1 {
   left: 0;
   right: 0; }
-  .rightmenu_sm .right_nav .title h1 svg {
+  .rightmenu_sm .right_nav .title h1 .svg_icon, .rightmenu_sm .right_nav .title h1 svg {
     left: 0;
     right: 0;
     margin: auto; }
@@ -2307,7 +2366,7 @@ img {
     opacity: 0;
     overflow: hidden; }
 
-.rightmenu_sm .right_nav .dropf .clickable svg {
+.rightmenu_sm .right_nav .dropf .clickable svg, .rightmenu_sm .right_nav .dropf .clickable .svg_icon {
   right: 0;
   left: 0;
   display: block;
@@ -2334,7 +2393,7 @@ img {
 .rightmenu_sm .right_nav .dropf .box input {
   opacity: 0; }
 
-.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .dropf .box .tit svg, .rightmenu_sm .right_nav .dropf .box_normal .tit svg {
+.rightmenu_sm .right_nav .optimalroute svg, .rightmenu_sm .right_nav .optimalroute .svg_icon, .rightmenu_sm .right_nav .dropf .box .tit svg, .rightmenu_sm .right_nav .dropf .box_normal .tit svg, .rightmenu_sm .right_nav .dropf .box .tit .svg_icon {
   left: 0;
   right: 0;
   margin: auto;
@@ -2935,7 +2994,8 @@ img {
     padding: 2rem; }
     .popup_green_def .box .icon {
       max-width: 1.75rem;
-      width: 100%; }
+      width: 100%;
+      min-height: 2rem; }
     .popup_green_def .box .icon2 {
       max-width: 2.25rem;
       width: 100%; }
@@ -3046,6 +3106,13 @@ img {
             -ms-transition: all .25s ease;
             -o-transition: all .25s ease;
             transition: all .25s ease; }
+        .popup_green_def .box .btns a .svg_icon {
+          top: 50%;
+          transform: translateY(-50%);
+          position: absolute;
+          left: 0;
+          width: 100%;
+          min-height: 1rem; }
         .popup_green_def .box .btns a .w26 {
           max-width: 0.625rem; }
         .popup_green_def .box .btns a .w9 {
@@ -3121,7 +3188,7 @@ img {
     height: 0.35rem;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6.328 3.399'%3E%3Cpath id='Path_373' data-name='Path 373' d='M9.774,3.5l-2.8,2.682a.406.406,0,0,1-.256.111.372.372,0,0,1-.243-.1L3.663,3.5A.351.351,0,1,1,4.149,3L6.719,5.459,9.288,3a.351.351,0,0,1,.486.505Z' transform='translate(-3.555 -2.898)' fill='%2353565a'/%3E%3C/svg%3E%0A") center center/0.633rem;
     background-repeat: no-repeat;
-    right: 1.5rem;
+    right: 1rem;
     top: calc(50% + 3rem);
     transform: translateY(-50%);
     z-index: 999;
