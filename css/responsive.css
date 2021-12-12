@@ -1,3 +1,18 @@
+@media (max-height: 700px) {
+  .work_panel {
+    overflow: auto;
+    max-height: calc(100vh - 6rem); }
+  .work_panel .dashbouard_panel .two_separate_area .l .diagram_pl {
+    height: 21rem; }
+  .work_panel .dashbouard_panel .two_separate_area {
+    padding-bottom: 3.2rem; }
+  .work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont {
+    max-height: unset;
+    height: unset; }
+  .work_panel .dashbouard_panel .two_separate_area .l {
+    height: unset;
+    max-height: unset; } }
+
 @media (max-width: 1550px) {
   .work_panel .dashbouard_panel .council_name .left_box .seletbox {
     max-width: calc(32.5% - 0.1rem); }
@@ -114,7 +129,7 @@
   .work_panel .dashbouard_panel .two_separate_area .list_right_side .scrollablecont {
     max-height: unset;
     overflow: unset;
-    padding-bottom: 5.3rem; }
+    padding-bottom: 0; }
   .work_panel .dashbouard_panel_table .title_row .bnts_box {
     padding: 0 0.5rem; }
   .work_panel .dashbouard_panel .title_row_bin .bnts_box .period {
@@ -194,6 +209,8 @@
   z-index: 999999999999; }
 
 @media (max-width: 772px) {
+  .login_register .leftside img {
+    max-width: 60%; }
   .work_panel .dashbouard_panel_table {
     max-width: 100%; }
   .daterangepicker.ltr {
@@ -210,9 +227,6 @@
   .rightmenu_sm .right_nav .dropf .box {
     max-height: unset;
     height: unset; }
-  .confirmbox p {
-    font-size: 1rem;
-    line-height: 1.1rem; }
   .footerarea {
     left: 0;
     right: 0; }
@@ -394,7 +408,9 @@
   .rightmenu_sm .top_nav .notification_c ul, .rightmenu_sm .top_nav .username_options ul {
     right: 18rem; }
   .screen_view_without_rs .top_nav .username_options ul {
-    right: 0; } }
+    right: 0; }
+  .leftmenu_sm .work_panel .dashbouard_panel_table {
+    max-width: 100%; } }
 
 @media (max-width: 550px) {
   .work_panel .dashbouard_panel .two_separate_area .l .per2col_inrow {
@@ -456,7 +472,24 @@
   .work_panel .dashbouard_panel .council_name_select_box .left_box .name_c {
     padding-bottom: 2rem; }
   .work_panel .dashbouard_panel .council_name_select_box .left_box .svg_icon, .work_panel .dashbouard_panel .council_name_select_box .left_box svg {
-    top: calc(50% - 1rem); } }
+    top: calc(50% - 1rem); }
+  .top_nav .searchbar_menu .svg_icon {
+    left: 4rem; }
+  .leftmenu_sm .work_panel .dashbouard_panel_table {
+    max-width: 100%; } }
+
+@media (max-width: 530px) {
+  .login_register {
+    display: block; }
+  .login_register .leftside {
+    width: 100%;
+    min-height: 10rem;
+    height: 10rem; }
+  .login_register .leftside img {
+    max-width: 17rem; }
+  .login_register .rightside {
+    min-height: calc(100vh - 10rem);
+    width: 100%; } }
 
 @media (max-width: 500px) {
   .addprecinct_popup .placeholderwhitearea {
@@ -578,3 +611,21 @@
     font-size: 1.4rem; }
   .right_nav .dropf .box .multiselect .arrowright, .rightmenu_sm .right_nav .dropf .clickable svg, .rightmenu_sm .right_nav .dropf .clickable .svg_icon {
     right: 0.5rem; } }
+
+@media (max-height: 700px) {
+  .work_panel .dashbouard_panel .two_separate_area .without_mh .scrollablecont {
+    max-height: unset;
+    height: unset; }
+  .work_panel .dashbouard_panel .two_separate_area .l {
+    height: unset;
+    max-height: unset; }
+  .work_panel .dashbouard_panel .two_separate_area .list_right_side .scrollablecont {
+    max-height: 100%;
+    overflow: unset; }
+  .work_panel .dashbouard_panel .two_separate_area .list_right_side .toolbar_c {
+    position: relative;
+    left: unset;
+    right: unset;
+    bottom: unset; }
+  .work_panel .dashbouard_panel .two_separate_area .list_right_side {
+    max-height: unset; } }

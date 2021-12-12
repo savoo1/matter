@@ -325,3 +325,27 @@ $( ".dropdownbtn_select" ).click(function(e) {
 	}
 });
 
+// on click add selected right menu
+$( ".right_nav .dropf .box .tit" ).click(function(e) {
+	$(".right_selected").addClass("right_selected_for_remove");
+	if(!$(this).parent().hasClass("right_selected")){
+		$(this).parent().addClass("right_selected");
+	}else{
+		$(".right_selected").removeClass("right_selected");
+	}
+	$(".right_selected_for_remove").removeClass("right_selected");
+	$(".right_selected_for_remove").removeClass("right_selected_for_remove");
+});
+$( ".right_nav .dropf .box input" )
+.focusout(function() {
+	$(".right_selected").removeClass("right_selected");
+});
+
+
+
+
+
+
+
+
+

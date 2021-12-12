@@ -390,7 +390,12 @@
 
 
 
-
+  .daterangepicker td.in-range{
+    background-color: #E8F5E4;
+  }
+.daterangepicker .calendar-table th{
+  font-weight: 500;
+}
 .daterangepicker.ltr{
 	right: 2.2rem !important;
 	left: unset !important;
@@ -409,15 +414,60 @@
 	background: #2A2B2D;
 	border-color: #2A2B2D;
 	color: #fff;
+
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 2.2rem;
+  color: #fff;
+  padding: 0 1.5rem;
+  background: #43B02A;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+  border: 0;
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+.daterangepicker .ranges li{
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 2.2rem;
+  color: #fff;
+  padding: 0 1.5rem;
+  background: #43B02A;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display:block;
+  max-width: calc(100% - 0.5rem);
+  margin: auto;
+  white-space: nowrap;
+  border: 0;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+.daterangepicker .ranges li:hover{
+  background: #3B9A25;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover, .daterangepicker .ranges li.active{
+  background: #2A6E1A;
 }
 .daterangepicker .drp-buttons .btn:hover{
-	background: #3E4144;
-	border-color: #3E4144;
+  background: #3B9A25;
 }
 .daterangepicker.opensright:before, .daterangepicker:after{
 	display: none !important;
 }
-
 
 
 

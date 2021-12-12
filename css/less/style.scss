@@ -92,6 +92,7 @@ img{
 		padding-bottom: 0.8rem;
 	}
 }
+
 .right_nav{
 	max-width: 18rem;
 	background: #72C45F;
@@ -688,6 +689,9 @@ img{
 		.darker_green{
 			background: #2A6E1A;
 		}
+		.right_selected{
+			background: #2A6E1A;
+		}
 		.green2{
 			background: #3B9A25;
 		}
@@ -696,6 +700,21 @@ img{
 		}
 		.multi_select_list_box_active:hover{
 			background: #43B02A;
+		}
+		.right_selected:hover{
+			background: #2A6E1A !important;
+		}
+		.multi_select_list_box{
+			background: #43B02A;
+		}
+		.multi_select_list_box:hover{
+			background: #3B9A25;
+		}
+		.multi_select_list_box_active{
+			background: #2A6E1A !important;
+		}
+		.multi_select_list_box_active:hover{
+			background: #2A6E1A !important;
 		}
 		.white_c{
 			background: #fff;
@@ -712,7 +731,7 @@ img{
 		}
 
 		.white_c:hover{
-			background: #e8f5e4;
+			background: #e8f5e4 !important;
 			.tit{
 				svg{
 					path{
@@ -739,7 +758,7 @@ img{
 			}
 		}
 		.white_c_to_red:hover{
-			background: #FCDFE0;
+			background: #FCDFE0 !important;
 			.tit{
 				svg{
 					path{
@@ -765,7 +784,7 @@ img{
 			}
 		}
 		.white_c_to_red:hover{
-			background: #FCDFE0;
+			background: #FCDFE0 !important;
 			.tit{
 				svg{
 					path{
@@ -791,7 +810,7 @@ img{
 			}
 		}
 		.white_c_to_green:hover{
-			background: #E8FCEB;
+			background: #E8FCEB !important;
 			.tit{
 				svg{
 					path{
@@ -817,7 +836,7 @@ img{
 			}
 		}
 		.white_c_to_yellow:hover{
-			background: #FEF7E1;
+			background: #FEF7E1 !important;
 			.tit{
 				svg{
 					path{
@@ -834,22 +853,22 @@ img{
 			background: #2A6E1A;
 		}
 		.blue_bg{
-			background: #3B8EDE;
+			background: #3B8EDE !important;
 		}
 		.blue_bg:hover{
-			background: #3B8EDE;
+			background: #3B8EDE !important;
 		}
 		.blue_bg_darked{
-			background: #3B8EDE;
+			background: #3B8EDE !important;
 		}
 		.blue_bg_darked:hover{
-			background: #347CC2;
+			background: #347CC2 !important;
 		}
 		.route_finished, .route_finished:hover{
-			background: #6CAAE6;
+			background: #6CAAE6 !important;
 		}
 		.active_finished, .active_finished:hover{
-			background: #2C6BA7;
+			background: #2C6BA7 !important;
 		}
 		
 	}
@@ -865,6 +884,47 @@ img{
 		}
 		.boxes{
 			max-height: 100%;
+		}
+	}
+}
+.right_nav_map_page{
+	background: #749988;
+	.title{
+		background: #588570;
+		h1 .map_view_options{
+			max-width: 1.125rem;
+		}
+	}
+	.dropf{
+		.box{
+			background: #588570;
+		}
+		.box:hover{
+			background: #39795B;
+		}
+		.darker_box{
+			background: #205C40;
+		}
+		.darker_box:hover{
+			background:#0F5032
+		}
+		.right_selected{
+			background: #044024;
+		}
+		.right_selected:hover{
+			background: #044024 !important;
+		}
+		.multi_select_list_box{
+			background: #588570;
+		}
+		.multi_select_list_box:hover{
+			background: #39795B;
+		}
+		.multi_select_list_box_active{
+			background: #044024 !important;
+		}
+		.multi_select_list_box_active:hover{
+			background: #044024 !important;
 		}
 	}
 }
@@ -1492,6 +1552,12 @@ img{
 				position: relative;
 				min-height: unset;
 				max-height: calc(100vh - 22.7rem);
+
+				.downmap_b{
+					min-height: 30rem;
+					border-radius: 0.5rem;
+					height: 100%;
+				}
 				.toolbar_c{
 					position: absolute;
 					left: 0.2rem;
@@ -1630,6 +1696,9 @@ img{
 							color: #FFFFFF;
 						}
 					}
+					.bg_g{ background: #3EC856; }
+					.bg_y{ background: #FDB514; }
+					.bg_r{ background: #F2050D; }
 				}
 			}
 		}
@@ -3663,9 +3732,9 @@ img{
 	}
 	p{
 		font-family: 'Oswald', sans-serif;
-		font-size: 0.7rem;
+		font-size: 1rem;
 		font-weight: 300;
-		line-height: 0.8rem;
+		line-height: 1.2rem;
 		color: #fff;
 	}
 	.btns{
@@ -4088,7 +4157,7 @@ img{
 	}
 	.dropdownlist{
 		background: #E5E5E3;
-		max-height: 10.4rem;
+		max-height: 10.6rem;
 	    overflow: auto;
 		a{
 			font-family: 'Oswald', sans-serif;
@@ -4106,13 +4175,13 @@ img{
 			transition: all .25s ease;
 		}
 		a:hover{
-			background: #E8F5E4;
+			background: #D4D5D6;
 		}
 	}
 }
 .dropdownbtn_select_active{
 	.fordropdown{
-		max-height: 10.4rem;
+		max-height: 10.6rem;
 		opacity: 1;
 	}
 	.title:after{
@@ -4122,8 +4191,245 @@ img{
 }
 
 
+.dashbouard_panel_table{
+	.custom-option:hover, .custom-option.selection{
+		background: #D4D5D6;
+	}
+}
+
+.greybtn{
+	width: 100%;
+	min-height: 4.4rem;
+	background: #53565A;
+	border-radius: 0.5rem;
+	margin-top: 0.4rem;
+	padding-left: 4.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	position: relative;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+	.textin{
+		display: inline-block;
+	}
+	h2{
+		font-family: 'Oswald', sans-serif;
+		font-size: 0.7rem;
+		font-weight: 500;
+		color: #fff;
+	}
+	h3{
+		font-family: 'Oswald', sans-serif;
+	    font-size: 1.8rem;
+	    font-weight: 400;
+	    color: #fff;
+	    margin: 0;
+	    margin-top: -0.3rem;
+	}
+	.svg_icon{
+		width: 1.6rem;
+		height: 2rem;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 2rem;
+	}
+}
+.greybtn:hover{
+	background: #494B4F;
+}
 
 
+
+
+.login_register{
+	display: flex;
+	.leftside{
+		width: 50%;
+		min-height: 100vh;
+		background: url("../img/map_login.svg") no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.rightside{
+		width: 50%;
+		background: #72C45F;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.box{
+			background: #43B02A;
+			max-width: 18.5rem;
+			width: 100%;
+			min-height: 2rem;
+			border-radius: 0.5rem;
+			border: 0.1rem solid #fff;
+			padding: 2rem;
+			.topicon{
+				width: 2rem;
+				height: 2rem;
+				margin-bottom: 1rem;
+			}
+			p{
+				font-family: 'Oswald', sans-serif;
+				font-weight: 400;
+				font-size: 0.8rem;
+				line-height: 1rem;
+				color: #fff;
+				margin-bottom: 0.6rem;
+			}
+			h1{
+				font-family: 'Oswald', sans-serif;
+				font-weight: 700;
+				font-size: 1.5rem;
+				line-height: 1.6rem;
+				color: #fff;
+				margin-bottom: 1.6rem;
+			}
+			input{
+				padding: 0.4rem 1rem 0.4rem 1.5rem;
+				border: 0;
+				background: #F8F8F8;
+				border-radius: 0.5rem;
+				font-family: 'Oswald', sans-serif;
+				font-size: 1rem;
+				font-weight: 300;
+				line-height: 1rem;
+				color: #53565A;
+				margin-bottom: 0.2rem;
+				width: 100%;
+				max-width: 100%;
+			}
+			button{
+				padding: 0;
+				margin: 0;
+				border: 0;
+				background: 0;
+				display: block;
+				width: 100%;
+				text-align: left;
+			}
+			.greybtn .svg_icon{
+				left: 1.5rem;
+			}
+			.options{
+				margin-top: 2rem;
+				display: flex;
+				justify-content: space-between;
+				a{
+					display: inline-block;
+					padding-left: 1.3rem;
+					font-family: 'Oswald', sans-serif;
+					font-size: 1rem;
+					font-weight: 300;
+					line-height: 1rem;
+					color: #fff;
+					text-decoration: none;
+					position: relative;
+					.svg_icon{
+						width: 1rem;
+						height: 1rem;
+						position: absolute;
+						left: 0;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+				}
+				.custom_checkbox{
+					display: inline-block;
+					.container_checkbox {
+					  display: inline-block;
+					  position: relative;
+					  padding-left: 1.3rem;
+					  cursor: pointer;
+					  
+					  font-family: 'Oswald', sans-serif;
+					  font-size: 1rem;
+					  font-weight: 300;
+					  line-height: 1rem;
+					  color: #fff;
+					  // margin-right: 0.9rem;
+
+
+					  -webkit-user-select: none;
+					  -moz-user-select: none;
+					  -ms-user-select: none;
+					  user-select: none;
+					}
+
+					/* Hide the browser's default checkbox */
+					.container_checkbox input {
+					  position: absolute;
+					  opacity: 0;
+					  cursor: pointer;
+					  height: 0;
+					  width: 0;
+					}
+
+					/* Create a custom checkbox */
+					.checkmark {
+					  position: absolute;
+					  top: 50%;
+					  transform: translateY(-50%);
+					  left: 0;
+					  height: 0.875rem;
+					  width: 0.875rem;
+					  background: transparent;
+					  border: 0.1rem solid #fff;
+					  border-radius: 1px;
+					}
+
+					/* On mouse-over, add a grey background color */
+					.container_checkbox:hover input ~ .checkmark {
+					  // background-color: #ccc;
+					}
+
+					/* When the checkbox is checked, add a blue background */
+					.container_checkbox input:checked ~ .checkmark {
+					  background-color: #fff;
+					}
+
+					/* Create the checkmark/indicator (hidden when not checked) */
+					.checkmark:after {
+					  content: "";
+					  position: absolute;
+					  display: none;
+					}
+
+					/* Show the checkmark when checked */
+					.container_checkbox input:checked ~ .checkmark:after {
+					  display: block;
+					}
+
+					/* Style the checkmark/indicator */
+					.container_checkbox .checkmark:after {
+					  left: 0.2rem;
+					  top: 0;
+					  width: 0.15rem;
+					  height: 0.45rem;
+					  border: solid #72C45F;
+					  border-width: 0 0.15rem 0.15rem 0;
+					  -webkit-transform: rotate(45deg);
+					  -ms-transform: rotate(45deg);
+					  transform: rotate(45deg);
+					}
+				}
+			}
+		}
+		.box_r{
+			background: #F2050D;
+		}
+	}
+}
 
 
 
