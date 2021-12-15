@@ -271,6 +271,7 @@ $(document).click(function(event) {
 	if (!$(event.target).closest(".notification_c").length) {
 		$(".notification_c").removeClass("notification_c_active");
 	}
+
 	if (!$(event.target).closest(".username_options").length) {
 		$(".username_options").removeClass("username_options_active");
 	}
@@ -318,7 +319,7 @@ $( ".close_popup" ).click(function(e) {
 // open dropdown menu on dropdown btns
 $( ".dropdownbtn_select" ).click(function(e) {
 	if($(this).hasClass("dropdownbtn_select_active")){
-		$(this).removeClass("dropdownbtn_select_active")
+		$(this).removeClass("dropdownbtn_select_active");
 	}else{
 		$(".dropdownbtn_select_active").removeClass("dropdownbtn_select_active");
 		$(this).addClass("dropdownbtn_select_active")
