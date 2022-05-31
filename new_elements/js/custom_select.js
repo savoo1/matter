@@ -36,3 +36,9 @@ $(".custom-option").on("click", function() {
   $(this).parents(".custom-select").removeClass("opened");
   $(this).parents(".custom-select").find(".custom-select-trigger").text($(this).text());
 });
+
+$( ".selectbox_custom .custom-option" ).click(function() {
+  var valueofthis = $(this).attr("data-value");
+  $(this).parent().parent().parent().find("option").removeAttr("checked", "");
+  $(this).parent().parent().parent().find("option[value="+valueofthis+"]").attr("checked", "checked");
+});
