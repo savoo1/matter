@@ -1,0 +1,296 @@
+.title_for_element {
+  padding-left: 5px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px; }
+
+.work_panel .forelements {
+  background: silver; }
+
+.single_date_picker input {
+  padding: 0.4rem 1rem 0.4rem 1.5rem;
+  border: 0;
+  background: #F8F8F8;
+  border-radius: 0.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+  color: #53565A;
+  margin-bottom: 0.2rem;
+  width: 100%;
+  max-width: 100%; }
+
+.ui-datepicker {
+  background: #fff;
+  margin: 0.3rem;
+  border-radius: 4px; }
+  .ui-datepicker thead th span {
+    font-family: 'Oswald', sans-serif;
+    color: #000; }
+  .ui-datepicker .ui-datepicker-prev {
+    width: 32px;
+    height: 27px;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.4rem;
+    z-index: 2;
+    font-size: 0;
+    border-radius: 4px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .ui-datepicker .ui-datepicker-prev:after {
+    content: '';
+    color: #fff;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    border-radius: 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    font-size: 0;
+    position: absolute;
+    left: 1rem;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+    z-index: 2; }
+  .ui-datepicker .ui-datepicker-next {
+    width: 32px;
+    height: 27px;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.4rem;
+    z-index: 2;
+    font-size: 0;
+    border-radius: 4px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .ui-datepicker .ui-datepicker-next:after {
+    content: '';
+    color: #fff;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    border-radius: 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    font-size: 0;
+    position: absolute;
+    right: 1rem;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+    z-index: 2; }
+  .ui-datepicker .ui-datepicker-prev:hover, .ui-datepicker .ui-datepicker-next:hover {
+    background: #eee; }
+  .ui-datepicker .ui-datepicker-title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #53565A;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem; }
+  .ui-datepicker .ui-state-default {
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 32px;
+    width: 22px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-decoration: none; }
+  .ui-datepicker .ui-state-active {
+    background: #2A6E1A;
+    color: #fff; }
+  .ui-datepicker .ui-state-default:hover {
+    background: #eee; }
+
+.ui-datepicker .ui-datepicker-title {
+  font-weight: 500;
+  color: #000;
+  font-size: 12px; }
+
+.ui-datepicker-calendar thead tr th {
+  height: 24px; }
+
+.ui-datepicker-calendar thead tr th span {
+  font-size: 12px; }
+
+.ui-datepicker .ui-datepicker-other-month a {
+  background-color: #fff;
+  border-color: transparent;
+  color: #999; }
+
+.custom_select_withoutdorpdown .select_box_custom {
+  min-height: 8rem;
+  border-radius: 0.5rem;
+  background: #B1B1AE;
+  width: calc(50% - 0.1rem);
+  position: relative; }
+  .custom_select_withoutdorpdown .select_box_custom .contentahead:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2rem;
+    background: #E5E5E3;
+    bottom: -2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; }
+  .custom_select_withoutdorpdown .select_box_custom .contentahead {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 6.4rem;
+    height: 6rem;
+    background: #B1B1AE;
+    position: relative;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem; }
+    .custom_select_withoutdorpdown .select_box_custom .contentahead .svg_icon, .custom_select_withoutdorpdown .select_box_custom .contentahead svg {
+      position: absolute;
+      left: 2rem;
+      top: calc(50% - 0rem);
+      transform: translateY(-50%);
+      max-width: 2.97rem;
+      width: 100%;
+      min-height: 4rem; }
+    .custom_select_withoutdorpdown .select_box_custom .contentahead h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      line-height: 2rem;
+      color: #fff;
+      margin: 0; }
+    .custom_select_withoutdorpdown .select_box_custom .contentahead h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 2rem;
+      color: #fff;
+      margin: 0; }
+  .custom_select_withoutdorpdown .select_box_custom .seletbox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    background: transparent;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-radius: 0.5rem; }
+    .custom_select_withoutdorpdown .select_box_custom .seletbox .custom-select-trigger {
+      border-radius: 0.5rem;
+      background: transparent; }
+
+.custom_select_withoutdorpdown .dropdownbtn_select {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  border-top-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 999; }
+  .custom_select_withoutdorpdown .dropdownbtn_select .title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #53565A;
+    line-height: 1rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    border-bottom-right-radius: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 6.5rem;
+    cursor: pointer; }
+  .custom_select_withoutdorpdown .dropdownbtn_select .title:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0.65rem;
+    height: 0.35rem;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6.328 3.399'%3E%3Cpath id='Path_373' data-name='Path 373' d='M9.774,3.5l-2.8,2.682a.406.406,0,0,1-.256.111.372.372,0,0,1-.243-.1L3.663,3.5A.351.351,0,1,1,4.149,3L6.719,5.459,9.288,3a.351.351,0,0,1,.486.505Z' transform='translate(-3.555 -2.898)' fill='%2353565a'/%3E%3C/svg%3E%0A") center center/0.633rem;
+    background-repeat: no-repeat;
+    right: 1rem;
+    top: calc(50% + 3rem);
+    transform: translateY(-50%);
+    z-index: 999;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .custom_select_withoutdorpdown .dropdownbtn_select .fordropdown {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    overflow: hidden;
+    position: absolute;
+    top: calc(100% - 2rem);
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .custom_select_withoutdorpdown .dropdownbtn_select .dropdownlist {
+    background: #E5E5E3;
+    max-height: 10.6rem;
+    overflow: auto; }
+    .custom_select_withoutdorpdown .dropdownbtn_select .dropdownlist a {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      color: #53565A;
+      padding: 0.3rem 0.5rem 0.3rem 2rem;
+      display: block;
+      cursor: pointer;
+      font-weight: 300;
+      text-decoration: none;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease; }
+    .custom_select_withoutdorpdown .dropdownbtn_select .dropdownlist a:hover {
+      background: #D4D5D6; }
+
+.custom_select_withoutdorpdown .dropdownbtn_select_active .fordropdown {
+  max-height: 10.6rem;
+  opacity: 1; }
+
+.custom_select_withoutdorpdown .dropdownbtn_select_active .title:after {
+  transform: rotate(-180deg);
+  top: calc(50% + 2.8rem); }
